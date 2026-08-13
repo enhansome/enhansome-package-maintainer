@@ -1,0 +1,363 @@
+{
+  "items": [
+    {
+      "description": "It helps tremendously if you, as a maintainer, are using the software yourself. If you stop using the software, it's best to let someone else that actively uses it to maintain it. This will make your contributions more reliable and more meaningful for yourself. More importantly, it will feel less of a job and be more of a rewarding experience -- you keep software you need in updated state and at the same time, you are keeping the entire distribution updated and bug-free.",
+      "items": [],
+      "title": "Eating your own sushi"
+    },
+    {
+      "description": "This will not be an accurate history lesson. We just want to give you some ideas.\nIn the early days people were sitting in front of their Slackware machine and when they wanted to install a new piece of software they had to do this by hand. They got a tarball with the sources from a website, via email or mailing list, from an (FTP) server, from CVS and so on. They inspected the sources and learned how to build the software. Some of this software even had Makefiles and were configured with Autotools.\nAs an example, let's do this now:\nAnd at that point you probably get an error because one of the dependencies of Nudoku is not installed. In this example that will be .\nSo now you stop the install process and go find the sources for ncurses and compile and install that first.\nAnd if that has additional missing dependencies? You guessed it!",
+      "items": [],
+      "title": "Software"
+    },
+    {
+      "description": "A packager or a package maintainer is the person who makes this magic happen. Thanks to them you can easily install software using your package manager eg .",
+      "items": [],
+      "title": "Who is a package maintainer?"
+    },
+    {
+      "description": "When a vulnerability is discovered they get reported at MITRE and a Common Vulnerabilities and Exposures or short CVE is created.\nThey usually look like . You might have heard of Heartbleed which for example got CVE-2014-0160 assigned.\nOnce such a CVE is discovered, the security teams of a distribution get notified. They then fix the bug or forward the information to the maintainer which should fix the bug. This depends on the policies of the particular distribution.\nSome vulnerabilities are under an embargo and maintainers should not mention it publicly or release it until a certain date.",
+      "items": [],
+      "title": "Security"
+    },
+    {
+      "description": "The software you package will come with a license. You need to be aware which licenses your distribution allows to ship in their repositories. You can find a list of licenses and their identifier on the SPDX website.",
+      "items": [],
+      "title": "License"
+    },
+    {
+      "description": "Since most distributions ship binary packages and attackers could attack the build system, it is useful to have a way to verify these packages. Various entities could follow the build instructions and verify whether the result is the same. Packagers can help the Reproducible builds project by ensuring their maintained software can be built reproducibly.",
+      "items": [],
+      "title": "Reproducibility"
+    },
+    {
+      "description": "Debuginfo packages contain symbols that were stripped from the ELF binaries shipped with the normal packages. This reduces size by removing information unimportant for the general user. However once we want to debug this information might be valuable. They also contain the source code of the binary.",
+      "items": [],
+      "title": "Debuginfo"
+    },
+    {
+      "description": "Debuginfod is a client/server that automatically distributes elf/dwarf/source-code from servers to clients such as debuggers across HTTP.\nThis has the advantage that you don't need to install debuginfo packages manually.\nVarious distributions run their own debuginfod server instances. Like for example Debian, Arch Linux or Ubuntu.",
+      "items": [],
+      "title": "Debuginfod"
+    },
+    {
+      "description": "A stack trace, or backtrace, is a list of functions that are active in a running program. One function calls another, so they are nested, and the program needs to record where it left one function. This is done on the stack. The backtrace is this list of active nested functions and can be useful to point us to the code which is buggy.\nWhen users report bugs they sometimes attach stack traces or coredumps. Or we maintainers ask them to do so.\nDebug symbols need to be installed or debuginfod enabled. Read the gdb section of this Readme to learn the basics of gdb. Once the program is started in gdb try to reproduce the crash. A backtrace can then be created via:\nThis is an example of what it might look like:\nWhen the crashed program created a core dump you can use gdb to get a stack trace as well:",
+      "items": [],
+      "title": "Stack Trace"
+    },
+    {
+      "description": "Diff is a command line tool for comparing two files or directories.",
+      "items": [],
+      "title": "diff"
+    },
+    {
+      "description": "You have an upstream tarball and want to create a patch with the changes:",
+      "items": [],
+      "title": "Example"
+    },
+    {
+      "description": "Patch is a command line tool that applies a diff output file (patch) to an original file.\nOne important parameter is which strips leading path segments, basically ignoring parts of the path.\nFor patches created by git you will usually use to apply them.",
+      "items": [],
+      "title": "patch"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Example"
+    },
+    {
+      "description": "Check out the package and call which will create a new folder with the source code:\nThere might already be patches mentioned in the spec file so lets apply them and then start a new patch:\nEdit the files that need fixing and create a patch:\nInstead of you could also use and .\nNow we have a new file which we can apply in the spec file.",
+      "items": [],
+      "title": "Create a new patch"
+    },
+    {
+      "description": "As a best practise about naming a patch we recommend to do the following for openSUSE:\nThe first part is the name of the package. Followed by the version. Followed by a reference to bugzilla (bugzilla.opensuse.org -> boo) and the bugnumber. Instead of that we also use CVE20240101. If no bug exists or CVE is assigned this part isn't present. Followed by a short description of what the patch does. So that you as the maintainer can remember it and don't have to open each file to understand what you were doing there.\nThese recommendations make it also easier to categorize and search for specific patches.",
+      "items": [],
+      "title": "Naming a patch"
+    },
+    {
+      "description": "With you can edit the header of the patch. Which you of course can also do manually in your editor in the patch file.\nSometimes you don't write the patch yourself but use a commit from git. For example you do:\nIt will have the following header:\nIf you use this patch exactly like it is this is fine. In case you need to do adjustments we recommend to mention this. For small adjustments I usually write:\nFor more complex ones I describe how my changes differ from the upstream patch. If my patch is based on several upstream commits I do list each of them.\nThese best practises might help you in case you did a mistake when backporting a patch.",
+      "items": [],
+      "title": "The patch header"
+    },
+    {
+      "description": "After initializing of a source tree, use , where stands for the number of patches you want to apply. Use this command in order to get to the position of the patch you want to alter. Afterwards just edit the file corresponding to the patch and refresh this patch. If you edit a file that isn't contained in the patch, remember to add this file by quilt add.\nA shortcut here to make sure that the file is tracked by quilt before editing it, you can use .",
+      "items": [],
+      "title": "Edit an existing patch"
+    },
+    {
+      "description": "Before the you could also check which files will be included in the patch, to confirm you did everything as you intended to, with .\nTo confirm the changes themselves you can use .\nAnd to import a patch from another location you could use .",
+      "items": [],
+      "title": "Misc"
+    },
+    {
+      "description": "We have the following patch:\nSince the patch was created the file has already been changed.\nTry quilt:\nUse option:\nThe telnet/commands.c.rej file was created. Now the Wiggle can be used:\nInspect the file to see that the changes from the patch were successfully applied:",
+      "items": [],
+      "title": "Example"
+    },
+    {
+      "description": "Meld is a GUI tool for comparing two files or directories. It also lets you easily merge changes.",
+      "items": [],
+      "title": "meld"
+    },
+    {
+      "description": "We checked out two packages from the openSUSE OBS. One is the other . The difference is that one will be about the stable release of lxqt-about and the other will always be rebuilt with the latest version of upstream git master.\nWe want to find out the differences and also merge/pull/push changes from the various files.\n\n",
+      "items": [],
+      "title": "Example"
+    },
+    {
+      "description": "These are tools to search in files. grep is the oldest of them. ack is faster since it skips some directories like the and directories by default. Useful for developers and maintainers. It can also search only specific file types. For example searches all C files for the word . ag, also known as The Silver Searcher, is yet a little faster than ack and ignores files mentioned in . Additionally it can search compressed files. ripgrep is similar to ag but written in Rust.\nSee this excellent comparison for more details.\nHINT: When in a git repository, instead of using , try to quickly search through the indexed files.",
+      "items": [],
+      "title": "grep, ack, ag, rg"
+    },
+    {
+      "description": "perf is a tool that can be used to analyze performance and trace functions.",
+      "items": [],
+      "title": "perf"
+    },
+    {
+      "description": "magic-trace is similar to perf. The key difference from perf is that instead of sampling call stacks throughout time, magic-trace uses Intel Processor Trace to snapshot a ring buffer of all control flow leading up to a chosen point in time. Then, you can explore an interactive timeline of what happened.",
+      "items": [],
+      "title": "magic-trace"
+    },
+    {
+      "description": "Basic example that shows how to use gdb in general.\nCompile it with debug symbols:\nDebug:\nWith we set the breakpoint to the function . Then we start the program. It breaks at our first breakpoint. Here we investigate the values of the variables and . And then we continue to step through the program. At the end we look at the result.",
+      "items": [],
+      "title": "Example"
+    },
+    {
+      "description": "The above example started the program we wanted to investigate. If the program is already running you cat attach to it via its PID. Use or to find out the PID.",
+      "items": [],
+      "title": "Already running programs"
+    },
+    {
+      "description": "You can use plugins, scripts and tools to optmize your gdb usage for certain tasks.\nOne example is gef. It assists exploit developers and reverse-engineers when using old school GDB. It provides additional features to GDB using the Python API to assist during the process of dynamic analysis and exploit development. Application developers will also benefit from it, as GEF lifts a great part of regular GDB obscurity, avoiding repeating traditional commands, or bringing out the relevant information from the debugging runtime.\n",
+      "items": [],
+      "title": "Extensions"
+    },
+    {
+      "description": "Running ltrace on the example program from above we see that it only calls :",
+      "items": [],
+      "title": "Example"
+    },
+    {
+      "description": "It's possible to use to produce very detailed output. As an example, we'll be compiling a very simple C program, then using to find a lot of information concerning its execution.\nHere's the C program:\nWe'll compile it disabling optimisations, and enabling debuginfo:\nAnd now we'll call , redirecting what it prints to , as that's where the relevant information will show up:\nLet's explain these flags, from :\nThis will be useful if you ever want to see the syscalls as well. So in this case, ltrace crosses into strace territory.\nThis is just some extra timing information, which may come in handy when doing simple performance analyses.\nThis is to trace every single subprocess/subthread.\nShow a backtrace for each traced call.\nAnd here's some interesting output from this example:\nWe can determine that calls , and it calls :\ncalls the syscall:\ncalls , which calls from glibc, and it will invoke the syscall:",
+      "items": [],
+      "title": "Using ltrace to trace both userspace library calls, syscalls, and collect stack traces"
+    },
+    {
+      "description": "ldd lists the shared libraries required by a program.\nThere is also libtree which is doing the same but displays it as a tree.\n",
+      "items": [],
+      "title": "ldd and libtree"
+    },
+    {
+      "description": "Valgrind is a suite of tools for profiling and debugging. We are mostly interested in the memory error detector functionality of it.\nIt will track each bit of memory used by a program and can detect whether this memory is leaked, used twice, used before it has a value or freed twice.",
+      "items": [],
+      "title": "valgrind"
+    },
+    {
+      "description": "They display information about object files and can be used to view an executable in assembly.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "mgornys Gentoo dev scripts",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-08-11T03:02:48Z",
+            "owner": "gentoo",
+            "repo": "mgorny-dev-scripts",
+            "stars": 39
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "release-notes-scraper",
+          "description": "grab the release notes for projects from GitHub that do not keep a CHANGELOG, but publish their release notes via the releases page.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-10T15:13:22Z",
+            "owner": "dcermak",
+            "repo": "release-notes-scraper",
+            "stars": 7
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "changesgen",
+          "description": "automates writing a (openSUSE) changes file.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-04-12T18:53:42Z",
+            "owner": "dirkmueller",
+            "repo": "changesgen",
+            "stars": 3
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "autoup",
+          "description": "searches on repology and tests whether updating to those would work in OBS",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-04-12T18:53:42Z",
+            "owner": "dirkmueller",
+            "repo": "changesgen",
+            "stars": 3
+          }
+        }
+      ],
+      "title": "readelf and objdump"
+    },
+    {
+      "description": "Create and send a patch to the mailing list:",
+      "items": [],
+      "title": "Quickstart"
+    },
+    {
+      "description": "Use ekeyword:",
+      "items": [],
+      "title": "Set all keywords to unstable:"
+    },
+    {
+      "description": "Use portageq:",
+      "items": [],
+      "title": "Query variables"
+    },
+    {
+      "description": "Use equery:",
+      "items": [],
+      "title": "Find out which package owns a particular file"
+    },
+    {
+      "description": "Use equery:",
+      "items": [],
+      "title": "List files in a package"
+    },
+    {
+      "description": "Install",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "grc",
+          "description": "() to have colorized and more readable output when building with .",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-08-18T14:50:09Z",
+            "owner": "garabik",
+            "repo": "grc",
+            "stars": 2188
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "spec-cleaner",
+          "description": "() to clean the spec file according to the style guide.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-04-01T11:15:50Z",
+            "owner": "rpm-software-management",
+            "repo": "spec-cleaner",
+            "stars": 33
+          }
+        }
+      ],
+      "title": "Setup"
+    },
+    {
+      "description": "Configure osc .\nAdd some useful tools which will be available in the chroot ():\nSome useful aliases for your bashrc/zshrc etc. If you use you could add this as well.\nSo you don't have to provide a password each time you build a package you should add yourself to the sudoers file:\nWith following content:",
+      "items": [],
+      "title": "Configure osc"
+    },
+    {
+      "description": "You can assign aliases to OBS instances.\nEdit :\nIn your bashrc you could then have:\nTo easily work on another instance:",
+      "items": [],
+      "title": "Multiple OBS instances"
+    },
+    {
+      "description": "In the above example the sources will be downloaded using the service. You should use URL to the upstream tarball in your spec file. OBS will later verify the tarball is the same like the one you added.",
+      "items": [],
+      "title": "Create a new package"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Making changes to an existing package"
+    },
+    {
+      "description": "Let's say you fixed a bug in one of your packages and want to run the reproducer to confirm that the bug is fixed. You don't want to install the package in question on your local machine, so one way of doing it is inside chroot. makes it easy to set everything up for you.\nUsing the flag you can install more packages into the chroot, in this case . This way you can install any development tools you need. You have all your reproducers in one directory, the two rsync parameters map them over into the chroot. Then you switch into it and run the poc.\nThis is especially helpful because you can also run tests against other targets. Like against a certain version of SLE or openSUSE that differs from your locally installed one.\nWith the flag you can name a directory and build prefer the rpms inside over the ones from the official repo.",
+      "items": [],
+      "title": "Testing changes"
+    },
+    {
+      "description": "Let's say you have a package in a devel project or Factory and want to test whether it builds for another distribution, lets say for SLE15 SP6:\nOops! The xmpp library that profanity is using isn't up to date or not existing.\nLuckily we can just check that out, build it, and then tell OBS to use the built package:\nThe will keep the packages in after building:\nLet's switch back and build profanity:\nThe will tell prefer the packages from .\nWhen we now try to build the binary it will tell us:\nSo we can see that another dependency isn't met and can make a decision to continue this path or not. Somtimes version upgrades are acceptable, sometimes introduction of a new package is acceptable, sometimes you need to follow certain rules to get them approved. This process can help you find out how suitable it is to upgrade a package in a released version of a distribution.\nAnother way of achieving this would be to create a subproject on your OBS home, copy the required packages over and make the corresponding changes in them.",
+      "items": [],
+      "title": "Building against different distributions"
+    },
+    {
+      "description": "OBS services are helpful to package git packages for example. Or Rust packages that use vendored tarballs.\nRead the OBS chapter on using source services to learn how they work.\nAnd take a look at the list of existing services.\nThe Packaging Rust Software article shows you how to use source services to package Rust software. It's a good example of services and contains a template to get you started.",
+      "items": [],
+      "title": "Services"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Revert to a revision"
+    },
+    {
+      "description": "In case you want to develop on the program you might want a quick way to get all the build requirements:",
+      "items": [],
+      "title": "Install all the build requirements of a package"
+    },
+    {
+      "description": "Let's say you maintain the libstrophe library and want to find out which packages depend on in (in Factory on x86_64):\nIf you use this often you could add a function to your .bashrc:\nExample output:",
+      "items": [],
+      "title": "Find out which packages depend on a certain package"
+    },
+    {
+      "description": "List your repositories with . There should be one with the name . It might be disabled so enable it with .\nAs we can see they are split in the debuginfo package and a package containing the source code.\nThe source code will be installed under as can be seen by:\nThe debuginfo will be availalbe under: as can be seen by:",
+      "items": [],
+      "title": "Install debuginfo package"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Snippets and tricks"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "List files in a package"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Find out which package owns a particular file"
+    },
+    {
+      "description": "RPMLint is integrated in the workflow of major RPM-based distributions like openSUSE or Fedora, but it's also a good practice to run manually when you're working with RPM packages.\nrpmlint can be used to check .spec files:\nAnd also with .rpm binary files:\nIf you find rpmlint’s output cryptic, the -e switch to it can be used to get more verbose descriptions of most errors and warnings:",
+      "items": [],
+      "title": "rpmlint"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-08-13T04:31:07.022Z",
+    "original_repository": "jubalh/awesome-package-maintainer",
+    "original_repository_sha": "583c4e94c743f5452c2529c686f94197f8030874",
+    "enhanced_repository": "enhansome/enhansome-package-maintainer",
+    "enhanced_repository_description": null,
+    "title": "Awesome Package Maintainer with stars"
+  }
+}
