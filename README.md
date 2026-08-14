@@ -101,7 +101,7 @@ Here are some ways how you can monitor a project or get notified about new relea
 * *watch* the project on GitHub/GitLab (a button in the top right corner).
 * Some distributions have their own tooling that reminds you about new releases. Debian uses a [watch file](https://wiki.debian.org/debian/watch).
 * Subscribe to the projects RSS feed. If they use GitHub (and maybe GitLab as well) they automatically publish an RSS feed eg. `https://github.com/profanity-im/profanity/releases.atom`. I use the [newsboat](https://newsboat.org/) RSS reader and each morning check for new releases via `newsboat -u ~/watchedprojects.rss`.
-* Use [nvchecker](https://github.com/lilydjwg/nvchecker) ⭐ 561 | 🐛 13 | 🌐 Python | 📅 2026-08-04.
+* Use [nvchecker](https://github.com/lilydjwg/nvchecker) ⭐ 562 | 🐛 13 | 🌐 Python | 📅 2026-08-04.
 * Monitor their websites via [urlwatch](https://thp.io/2008/urlwatch/).
 * Use the website [fresh code](https://freshcode.club/).
 * Use the website [newreleases](https://newreleases.io/).
@@ -146,7 +146,7 @@ Launchpad is used by:
 [GitHub](https://github.com/) is used by:
 
 * [Homebrew](https://github.com/Homebrew)
-* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 25,780 | 🐛 21,584 | 🌐 Nix | 📅 2026-08-13
+* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 25,796 | 🐛 21,597 | 🌐 Nix | 📅 2026-08-14
 
 [GitLab](https://about.gitlab.com/) is used by:
 
@@ -507,7 +507,7 @@ These are tools to search in files. [grep](https://www.gnu.org/software/grep/) i
 Useful for developers and maintainers. It can also search only specific file types.
 For example `ack --cc close` searches all C files for the word `close`.
 [ag](https://geoff.greer.fm/ag/), also known as *The Silver Searcher*, is yet a little faster than ack and ignores files mentioned in `.gitignore`. Additionally it can search compressed files.
-[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 67,276 | 🐛 175 | 🌐 Rust | 📅 2026-08-04 is similar to ag but written in Rust.
+[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 67,314 | 🐛 175 | 🌐 Rust | 📅 2026-08-04 is similar to ag but written in Rust.
 
 See this excellent [comparison](https://beyondgrep.com/feature-comparison/) for more details.
 
@@ -539,7 +539,7 @@ The following tools will mostly be about debugging.
 ## gdb
 
 [gdb](https://www.gnu.org/software/gdb) is a debugger.
-[seer](https://github.com/epasveer/seer) ⭐ 3,428 | 🐛 42 | 🌐 C++ | 📅 2026-08-12 is a nice GUI frontend for gdb.
+[seer](https://github.com/epasveer/seer) ⭐ 3,428 | 🐛 42 | 🌐 C++ | 📅 2026-08-13 is a nice GUI frontend for gdb.
 
 * [How does gdb work?](https://jvns.ca/blog/2016/08/10/how-does-gdb-work/) by [jvns](https://github.com/jvns).
 
@@ -1428,4 +1428,4 @@ Special thanks and credit to the whole SUSE Pack team, and to:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-13._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-14._
