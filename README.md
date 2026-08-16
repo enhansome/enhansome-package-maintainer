@@ -146,7 +146,7 @@ Launchpad is used by:
 [GitHub](https://github.com/) is used by:
 
 * [Homebrew](https://github.com/Homebrew)
-* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 25,807 | 🐛 21,209 | 🌐 Nix | 📅 2026-08-15
+* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 25,817 | 🐛 21,139 | 🌐 Nix | 📅 2026-08-16
 
 [GitLab](https://about.gitlab.com/) is used by:
 
@@ -507,7 +507,7 @@ These are tools to search in files. [grep](https://www.gnu.org/software/grep/) i
 Useful for developers and maintainers. It can also search only specific file types.
 For example `ack --cc close` searches all C files for the word `close`.
 [ag](https://geoff.greer.fm/ag/), also known as *The Silver Searcher*, is yet a little faster than ack and ignores files mentioned in `.gitignore`. Additionally it can search compressed files.
-[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 67,289 | 🐛 176 | 🌐 Rust | 📅 2026-08-04 is similar to ag but written in Rust.
+[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 67,317 | 🐛 176 | 🌐 Rust | 📅 2026-08-04 is similar to ag but written in Rust.
 
 See this excellent [comparison](https://beyondgrep.com/feature-comparison/) for more details.
 
@@ -539,7 +539,7 @@ The following tools will mostly be about debugging.
 ## gdb
 
 [gdb](https://www.gnu.org/software/gdb) is a debugger.
-[seer](https://github.com/epasveer/seer) ⭐ 3,428 | 🐛 42 | 🌐 C++ | 📅 2026-08-14 is a nice GUI frontend for gdb.
+[seer](https://github.com/epasveer/seer) ⭐ 3,429 | 🐛 48 | 🌐 C++ | 📅 2026-08-14 is a nice GUI frontend for gdb.
 
 * [How does gdb work?](https://jvns.ca/blog/2016/08/10/how-does-gdb-work/) by [jvns](https://github.com/jvns).
 
@@ -875,7 +875,7 @@ Useful tools:
 
 * [mgorny-dev-scripts](https://github.com/projg2/mgorny-dev-scripts) ⭐ 39 | 🐛 6 | 🌐 Shell | 📅 2026-08-11 - [mgornys](https://github.com/mgorny) ebuild development scripts
 * [iwdevtools](https://github.com/ionenwks/iwdevtools) ⭐ 24 | 🐛 6 | 🌐 Shell | 📅 2026-07-06 - tools to aid with Gentoo development, primarily intended for QA
-* [sam-gentoo-scripts](https://github.com/thesamesam/sam-gentoo-scripts) ⭐ 24 | 🐛 1 | 🌐 Shell | 📅 2026-07-18 - [sams](https://github.com/thesamesam) Gentoo development scripts
+* [sam-gentoo-scripts](https://github.com/thesamesam/sam-gentoo-scripts) ⭐ 24 | 🐛 4 | 🌐 Shell | 📅 2026-08-16 - [sams](https://github.com/thesamesam) Gentoo development scripts
 * [pkgdev](https://wiki.gentoo.org/wiki/Pkgdev)
 * [pkgcheck](https://wiki.gentoo.org/wiki/Pkgcheck)
 * [equery](https://wiki.gentoo.org/wiki/Equery)
@@ -1428,4 +1428,4 @@ Special thanks and credit to the whole SUSE Pack team, and to:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-15._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-16._
