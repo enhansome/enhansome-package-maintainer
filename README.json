@@ -169,7 +169,7 @@
             "last_commit": "2026-08-11T03:02:48Z",
             "owner": "gentoo",
             "repo": "mgorny-dev-scripts",
-            "stars": 39
+            "stars": 40
           }
         },
         {
@@ -180,7 +180,7 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-10T15:13:22Z",
+            "last_commit": "2026-08-17T11:06:40Z",
             "owner": "dcermak",
             "repo": "release-notes-scraper",
             "stars": 7
@@ -256,7 +256,7 @@
             "last_commit": "2024-08-18T14:50:09Z",
             "owner": "garabik",
             "repo": "grc",
-            "stars": 2188
+            "stars": 2189
           }
         },
         {
@@ -353,7 +353,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-17T06:50:29.314Z",
+    "last_updated": "2026-08-18T06:38:52.044Z",
     "original_repository": "jubalh/awesome-package-maintainer",
     "original_repository_sha": "583c4e94c743f5452c2529c686f94197f8030874",
     "enhanced_repository": "enhansome/enhansome-package-maintainer",
