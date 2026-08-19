@@ -146,7 +146,7 @@ Launchpad is used by:
 [GitHub](https://github.com/) is used by:
 
 * [Homebrew](https://github.com/Homebrew)
-* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 25,848 | 🐛 20,624 | 🌐 Nix | 📅 2026-08-19
+* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 25,848 | 🐛 20,662 | 🌐 Nix | 📅 2026-08-19
 
 [GitLab](https://about.gitlab.com/) is used by:
 
@@ -507,7 +507,7 @@ These are tools to search in files. [grep](https://www.gnu.org/software/grep/) i
 Useful for developers and maintainers. It can also search only specific file types.
 For example `ack --cc close` searches all C files for the word `close`.
 [ag](https://geoff.greer.fm/ag/), also known as *The Silver Searcher*, is yet a little faster than ack and ignores files mentioned in `.gitignore`. Additionally it can search compressed files.
-[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 67,387 | 🐛 179 | 🌐 Rust | 📅 2026-08-04 is similar to ag but written in Rust.
+[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 67,395 | 🐛 179 | 🌐 Rust | 📅 2026-08-04 is similar to ag but written in Rust.
 
 See this excellent [comparison](https://beyondgrep.com/feature-comparison/) for more details.
 
@@ -1308,7 +1308,7 @@ There are some tools to verify that the package generated is correct
 and follows the distribution guidelines.
 
 * [lintian](https://wiki.debian.org/Lintian), for .deb packages
-* [rpmlint](https://github.com/rpm-software-management/rpmlint) ⭐ 162 | 🐛 91 | 🌐 Python | 📅 2026-08-18, for
+* [rpmlint](https://github.com/rpm-software-management/rpmlint) ⭐ 162 | 🐛 90 | 🌐 Python | 📅 2026-08-19, for
   .rpm packages.
 
 ## rpmlint
@@ -1408,7 +1408,7 @@ several choices to filter the warning or error from rpmlint output:
 * Use a rpmlintrc file, rpmlint will load any `*.rpmlintrc` or
   `*-rpmlintrc` located in the same folder as the checked package.
 
-You can find more details about how to configure in the [rpmlint doc](https://github.com/rpm-software-management/rpmlint?tab=readme-ov-file#configuration) ⭐ 162 | 🐛 91 | 🌐 Python | 📅 2026-08-18
+You can find more details about how to configure in the [rpmlint doc](https://github.com/rpm-software-management/rpmlint?tab=readme-ov-file#configuration) ⭐ 162 | 🐛 90 | 🌐 Python | 📅 2026-08-19
 
 # Post packaging
 
