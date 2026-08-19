@@ -180,7 +180,7 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-17T11:06:40Z",
+            "last_commit": "2026-08-18T15:12:55Z",
             "owner": "dcermak",
             "repo": "release-notes-scraper",
             "stars": 7
@@ -353,7 +353,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-18T06:38:52.044Z",
+    "last_updated": "2026-08-19T06:39:24.825Z",
     "original_repository": "jubalh/awesome-package-maintainer",
     "original_repository_sha": "583c4e94c743f5452c2529c686f94197f8030874",
     "enhanced_repository": "enhansome/enhansome-package-maintainer",
