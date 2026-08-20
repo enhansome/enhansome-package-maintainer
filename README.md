@@ -146,7 +146,7 @@ Launchpad is used by:
 [GitHub](https://github.com/) is used by:
 
 * [Homebrew](https://github.com/Homebrew)
-* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 25,848 | 🐛 20,662 | 🌐 Nix | 📅 2026-08-19
+* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 25,857 | 🐛 20,740 | 🌐 Nix | 📅 2026-08-20
 
 [GitLab](https://about.gitlab.com/) is used by:
 
@@ -507,7 +507,7 @@ These are tools to search in files. [grep](https://www.gnu.org/software/grep/) i
 Useful for developers and maintainers. It can also search only specific file types.
 For example `ack --cc close` searches all C files for the word `close`.
 [ag](https://geoff.greer.fm/ag/), also known as *The Silver Searcher*, is yet a little faster than ack and ignores files mentioned in `.gitignore`. Additionally it can search compressed files.
-[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 67,395 | 🐛 179 | 🌐 Rust | 📅 2026-08-04 is similar to ag but written in Rust.
+[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 67,420 | 🐛 179 | 🌐 Rust | 📅 2026-08-04 is similar to ag but written in Rust.
 
 See this excellent [comparison](https://beyondgrep.com/feature-comparison/) for more details.
 
@@ -519,7 +519,7 @@ perf is a tool that can be used to analyze performance and trace functions.
 
 ## magic-trace
 
-[magic-trace](https://github.com/janestreet/magic-trace) ⭐ 6,234 | 🐛 70 | 🌐 OCaml | 📅 2026-06-17 is similar to perf.
+[magic-trace](https://github.com/janestreet/magic-trace) ⭐ 6,234 | 🐛 70 | 🌐 OCaml | 📅 2026-08-19 is similar to perf.
 The key difference from perf is that instead of sampling call stacks throughout time, magic-trace uses Intel Processor Trace to snapshot a ring buffer of all control flow leading up to a chosen point in time. Then, you can explore an interactive timeline of what happened.
 
 ## More tools
@@ -539,7 +539,7 @@ The following tools will mostly be about debugging.
 ## gdb
 
 [gdb](https://www.gnu.org/software/gdb) is a debugger.
-[seer](https://github.com/epasveer/seer) ⭐ 3,430 | 🐛 47 | 🌐 C++ | 📅 2026-08-17 is a nice GUI frontend for gdb.
+[seer](https://github.com/epasveer/seer) ⭐ 3,430 | 🐛 47 | 🌐 C++ | 📅 2026-08-19 is a nice GUI frontend for gdb.
 
 * [How does gdb work?](https://jvns.ca/blog/2016/08/10/how-does-gdb-work/) by [jvns](https://github.com/jvns).
 
@@ -618,7 +618,7 @@ $ gdb
 
 You can use plugins, scripts and tools to optmize your gdb usage for certain tasks.
 
-One example is [gef](https://github.com/hugsy/gef) ⭐ 8,320 | 🐛 16 | 🌐 Python | 📅 2026-06-16. It assists exploit developers and reverse-engineers when using old school GDB. It provides additional features to GDB using the Python API to assist during the process of dynamic analysis and exploit development. Application developers will also benefit from it, as GEF lifts a great part of regular GDB obscurity, avoiding repeating traditional commands, or bringing out the relevant information from the debugging runtime.
+One example is [gef](https://github.com/hugsy/gef) ⭐ 8,322 | 🐛 16 | 🌐 Python | 📅 2026-06-16. It assists exploit developers and reverse-engineers when using old school GDB. It provides additional features to GDB using the Python API to assist during the process of dynamic analysis and exploit development. Application developers will also benefit from it, as GEF lifts a great part of regular GDB obscurity, avoiding repeating traditional commands, or bringing out the relevant information from the debugging runtime.
 
 ![alt text](https://github.com/jubalh/awesome-package-maintainer/blob/master/img/gef.png?raw=true)
 
@@ -1256,7 +1256,7 @@ rpm -ql nudoku nudoku-debuginfo
 
 ### Useful scripts
 
-* [openSUSE-helpers](https://github.com/DimStar77/openSUSE-helpers) ⭐ 5 | 🐛 0 | 🌐 Python | 📅 2026-07-29 by [DimStar77](https://github.com/DimStar77).
+* [openSUSE-helpers](https://github.com/DimStar77/openSUSE-helpers) ⭐ 5 | 🐛 0 | 🌐 Python | 📅 2026-08-19 by [DimStar77](https://github.com/DimStar77).
 
 ### Blog(posts)
 
@@ -1428,4 +1428,4 @@ Special thanks and credit to the whole SUSE Pack team, and to:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-19._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-20._
