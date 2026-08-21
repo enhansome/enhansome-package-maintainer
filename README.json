@@ -110,7 +110,7 @@
                 "archived": false,
                 "id": 469921711,
                 "language": "Shell",
-                "last_commit": "2026-08-17T01:43:31Z",
+                "last_commit": "2026-08-21T03:37:47Z",
                 "owner": "thesamesam",
                 "repo": "sam-gentoo-scripts",
                 "stars": 24
@@ -137,7 +137,7 @@
                     "last_commit": "2024-08-18T14:50:09Z",
                     "owner": "garabik",
                     "repo": "grc",
-                    "stars": 2189
+                    "stars": 2190
                   }
                 },
                 {
@@ -170,7 +170,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-20T06:40:34.557Z",
+    "last_updated": "2026-08-21T06:41:21.589Z",
     "original_repository": "jubalh/awesome-package-maintainer",
     "original_repository_id": 587394200,
     "original_repository_sha": "583c4e94c743f5452c2529c686f94197f8030874",

@@ -101,7 +101,7 @@ Here are some ways how you can monitor a project or get notified about new relea
 * *watch* the project on GitHub/GitLab (a button in the top right corner).
 * Some distributions have their own tooling that reminds you about new releases. Debian uses a [watch file](https://wiki.debian.org/debian/watch).
 * Subscribe to the projects RSS feed. If they use GitHub (and maybe GitLab as well) they automatically publish an RSS feed eg. `https://github.com/profanity-im/profanity/releases.atom`. I use the [newsboat](https://newsboat.org/) RSS reader and each morning check for new releases via `newsboat -u ~/watchedprojects.rss`.
-* Use [nvchecker](https://github.com/lilydjwg/nvchecker) ⭐ 562 | 🐛 15 | 🌐 Python | 📅 2026-08-15.
+* Use [nvchecker](https://github.com/lilydjwg/nvchecker) ⭐ 562 | 🐛 14 | 🌐 Python | 📅 2026-08-21.
 * Monitor their websites via [urlwatch](https://thp.io/2008/urlwatch/).
 * Use the website [fresh code](https://freshcode.club/).
 * Use the website [newreleases](https://newreleases.io/).
@@ -146,7 +146,7 @@ Launchpad is used by:
 [GitHub](https://github.com/) is used by:
 
 * [Homebrew](https://github.com/Homebrew)
-* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 25,857 | 🐛 20,740 | 🌐 Nix | 📅 2026-08-20
+* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 25,873 | 🐛 20,765 | 🌐 Nix | 📅 2026-08-21
 
 [GitLab](https://about.gitlab.com/) is used by:
 
@@ -507,7 +507,7 @@ These are tools to search in files. [grep](https://www.gnu.org/software/grep/) i
 Useful for developers and maintainers. It can also search only specific file types.
 For example `ack --cc close` searches all C files for the word `close`.
 [ag](https://geoff.greer.fm/ag/), also known as *The Silver Searcher*, is yet a little faster than ack and ignores files mentioned in `.gitignore`. Additionally it can search compressed files.
-[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 67,420 | 🐛 179 | 🌐 Rust | 📅 2026-08-04 is similar to ag but written in Rust.
+[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 67,457 | 🐛 179 | 🌐 Rust | 📅 2026-08-04 is similar to ag but written in Rust.
 
 See this excellent [comparison](https://beyondgrep.com/feature-comparison/) for more details.
 
@@ -519,7 +519,7 @@ perf is a tool that can be used to analyze performance and trace functions.
 
 ## magic-trace
 
-[magic-trace](https://github.com/janestreet/magic-trace) ⭐ 6,234 | 🐛 70 | 🌐 OCaml | 📅 2026-08-19 is similar to perf.
+[magic-trace](https://github.com/janestreet/magic-trace) ⭐ 6,238 | 🐛 71 | 🌐 OCaml | 📅 2026-08-19 is similar to perf.
 The key difference from perf is that instead of sampling call stacks throughout time, magic-trace uses Intel Processor Trace to snapshot a ring buffer of all control flow leading up to a chosen point in time. Then, you can explore an interactive timeline of what happened.
 
 ## More tools
@@ -618,7 +618,7 @@ $ gdb
 
 You can use plugins, scripts and tools to optmize your gdb usage for certain tasks.
 
-One example is [gef](https://github.com/hugsy/gef) ⭐ 8,322 | 🐛 16 | 🌐 Python | 📅 2026-06-16. It assists exploit developers and reverse-engineers when using old school GDB. It provides additional features to GDB using the Python API to assist during the process of dynamic analysis and exploit development. Application developers will also benefit from it, as GEF lifts a great part of regular GDB obscurity, avoiding repeating traditional commands, or bringing out the relevant information from the debugging runtime.
+One example is [gef](https://github.com/hugsy/gef) ⭐ 8,322 | 🐛 14 | 🌐 Python | 📅 2026-08-20. It assists exploit developers and reverse-engineers when using old school GDB. It provides additional features to GDB using the Python API to assist during the process of dynamic analysis and exploit development. Application developers will also benefit from it, as GEF lifts a great part of regular GDB obscurity, avoiding repeating traditional commands, or bringing out the relevant information from the debugging runtime.
 
 ![alt text](https://github.com/jubalh/awesome-package-maintainer/blob/master/img/gef.png?raw=true)
 
@@ -771,7 +771,7 @@ ldd ./src/myprog
 	libcurl.so.4 => /lib64/libcurl.so.4 (0x00007f36e4297000)
 ```
 
-There is also [libtree](https://github.com/haampie/libtree) ⭐ 2,771 | 🐛 12 | 🌐 C | 📅 2024-06-21 which is doing the same but displays it as a tree.
+There is also [libtree](https://github.com/haampie/libtree) ⭐ 2,770 | 🐛 12 | 🌐 C | 📅 2024-06-21 which is doing the same but displays it as a tree.
 
 ![Screenshot of libtree](https://github.com/haampie/libtree/blob/master/doc/screenshot.png?raw=true)
 
@@ -875,7 +875,7 @@ Useful tools:
 
 * [mgorny-dev-scripts](https://github.com/projg2/mgorny-dev-scripts) ⭐ 40 | 🐛 6 | 🌐 Shell | 📅 2026-08-11 - [mgornys](https://github.com/mgorny) ebuild development scripts
 * [iwdevtools](https://github.com/ionenwks/iwdevtools) ⭐ 24 | 🐛 6 | 🌐 Shell | 📅 2026-07-06 - tools to aid with Gentoo development, primarily intended for QA
-* [sam-gentoo-scripts](https://github.com/thesamesam/sam-gentoo-scripts) ⭐ 24 | 🐛 1 | 🌐 Shell | 📅 2026-08-17 - [sams](https://github.com/thesamesam) Gentoo development scripts
+* [sam-gentoo-scripts](https://github.com/thesamesam/sam-gentoo-scripts) ⭐ 24 | 🐛 1 | 🌐 Shell | 📅 2026-08-21 - [sams](https://github.com/thesamesam) Gentoo development scripts
 * [pkgdev](https://wiki.gentoo.org/wiki/Pkgdev)
 * [pkgcheck](https://wiki.gentoo.org/wiki/Pkgcheck)
 * [equery](https://wiki.gentoo.org/wiki/Equery)
@@ -978,7 +978,7 @@ openSUSE is currently in the process of switching to git instead of obs. See [th
 
 Install
 
-* [grc](https://github.com/garabik/grc) ⭐ 2,189 | 🐛 95 | 🌐 Python | 📅 2024-08-18 (`zypper in grc`) to have colorized and more readable output when building with `grc osc build`.
+* [grc](https://github.com/garabik/grc) ⭐ 2,190 | 🐛 95 | 🌐 Python | 📅 2024-08-18 (`zypper in grc`) to have colorized and more readable output when building with `grc osc build`.
 * [spec-cleaner](https://github.com/rpm-software-management/spec-cleaner) ⭐ 33 | 🐛 9 | 🌐 Python | 📅 2026-04-01 (`zypper in spec-cleaner`) to clean the spec file according to the style guide.
 
 ### Configure osc
@@ -1256,7 +1256,7 @@ rpm -ql nudoku nudoku-debuginfo
 
 ### Useful scripts
 
-* [openSUSE-helpers](https://github.com/DimStar77/openSUSE-helpers) ⭐ 5 | 🐛 0 | 🌐 Python | 📅 2026-08-19 by [DimStar77](https://github.com/DimStar77).
+* [openSUSE-helpers](https://github.com/DimStar77/openSUSE-helpers) ⭐ 5 | 🐛 0 | 🌐 Python | 📅 2026-08-20 by [DimStar77](https://github.com/DimStar77).
 
 ### Blog(posts)
 
@@ -1428,4 +1428,4 @@ Special thanks and credit to the whole SUSE Pack team, and to:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-20._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-21._
