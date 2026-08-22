@@ -12,7 +12,7 @@
             "archived": false,
             "id": 175802149,
             "language": "Shell",
-            "last_commit": "2026-08-11T03:02:48Z",
+            "last_commit": "2026-08-21T15:54:08Z",
             "owner": "gentoo",
             "repo": "mgorny-dev-scripts",
             "stars": 40
@@ -80,7 +80,7 @@
                 "archived": false,
                 "id": 175802149,
                 "language": "Shell",
-                "last_commit": "2026-08-11T03:02:48Z",
+                "last_commit": "2026-08-21T15:54:08Z",
                 "owner": "gentoo",
                 "repo": "mgorny-dev-scripts",
                 "stars": 40
@@ -170,7 +170,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-21T06:41:21.589Z",
+    "last_updated": "2026-08-22T06:35:22.949Z",
     "original_repository": "jubalh/awesome-package-maintainer",
     "original_repository_id": 587394200,
     "original_repository_sha": "583c4e94c743f5452c2529c686f94197f8030874",
