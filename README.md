@@ -146,7 +146,7 @@ Launchpad is used by:
 [GitHub](https://github.com/) is used by:
 
 * [Homebrew](https://github.com/Homebrew)
-* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 25,898 | 🐛 20,791 | 🌐 Nix | 📅 2026-08-23
+* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 25,918 | 🐛 20,802 | 🌐 Nix | 📅 2026-08-24
 
 [GitLab](https://about.gitlab.com/) is used by:
 
@@ -507,7 +507,7 @@ These are tools to search in files. [grep](https://www.gnu.org/software/grep/) i
 Useful for developers and maintainers. It can also search only specific file types.
 For example `ack --cc close` searches all C files for the word `close`.
 [ag](https://geoff.greer.fm/ag/), also known as *The Silver Searcher*, is yet a little faster than ack and ignores files mentioned in `.gitignore`. Additionally it can search compressed files.
-[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 67,504 | 🐛 179 | 🌐 Rust | 📅 2026-08-04 is similar to ag but written in Rust.
+[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 67,547 | 🐛 180 | 🌐 Rust | 📅 2026-08-04 is similar to ag but written in Rust.
 
 See this excellent [comparison](https://beyondgrep.com/feature-comparison/) for more details.
 
@@ -539,7 +539,7 @@ The following tools will mostly be about debugging.
 ## gdb
 
 [gdb](https://www.gnu.org/software/gdb) is a debugger.
-[seer](https://github.com/epasveer/seer) ⭐ 3,430 | 🐛 46 | 🌐 C++ | 📅 2026-08-22 is a nice GUI frontend for gdb.
+[seer](https://github.com/epasveer/seer) ⭐ 3,431 | 🐛 47 | 🌐 C++ | 📅 2026-08-23 is a nice GUI frontend for gdb.
 
 * [How does gdb work?](https://jvns.ca/blog/2016/08/10/how-does-gdb-work/) by [jvns](https://github.com/jvns).
 
@@ -618,7 +618,7 @@ $ gdb
 
 You can use plugins, scripts and tools to optmize your gdb usage for certain tasks.
 
-One example is [gef](https://github.com/hugsy/gef) ⭐ 8,321 | 🐛 14 | 🌐 Python | 📅 2026-08-20. It assists exploit developers and reverse-engineers when using old school GDB. It provides additional features to GDB using the Python API to assist during the process of dynamic analysis and exploit development. Application developers will also benefit from it, as GEF lifts a great part of regular GDB obscurity, avoiding repeating traditional commands, or bringing out the relevant information from the debugging runtime.
+One example is [gef](https://github.com/hugsy/gef) ⭐ 8,323 | 🐛 14 | 🌐 Python | 📅 2026-08-20. It assists exploit developers and reverse-engineers when using old school GDB. It provides additional features to GDB using the Python API to assist during the process of dynamic analysis and exploit development. Application developers will also benefit from it, as GEF lifts a great part of regular GDB obscurity, avoiding repeating traditional commands, or bringing out the relevant information from the debugging runtime.
 
 ![alt text](https://github.com/jubalh/awesome-package-maintainer/blob/master/img/gef.png?raw=true)
 
@@ -1428,4 +1428,4 @@ Special thanks and credit to the whole SUSE Pack team, and to:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-23._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-24._
