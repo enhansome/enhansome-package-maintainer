@@ -4,6 +4,106 @@
       "description": null,
       "items": [
         {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Use nvchecker",
+              "description": ".",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 10294702,
+                "language": "Python",
+                "last_commit": "2026-08-22T06:05:36Z",
+                "owner": "lilydjwg",
+                "repo": "nvchecker",
+                "stars": 563
+              }
+            }
+          ],
+          "description": "In a perfect world, you, as package maintainers, are in close contact with upstream. You monitor their development and take important bugfixes.\nHere are some ways how you can monitor a project or get notified about new releases:\nTo get an overview of which distro ships which version of a particular software we like to use repology. For example see this overview.\nmaintainer.opensuse.org also tracks packages from various sources.",
+          "node_type": "group",
+          "title": "Staying up to date"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "NixOS",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 4542716,
+                "language": "Nix",
+                "last_commit": "2026-08-24T14:29:40Z",
+                "owner": "NixOS",
+                "repo": "nixpkgs",
+                "stars": 25920
+              }
+            }
+          ],
+          "description": "As a packager you need to be familiar with the particular bugtracker your distribution uses.\nBugzilla is used by:\nLaunchpad is used by:\nGitHub is used by:\nGitLab is used by:\nAdditionally it would be good if you are used to the issue trackers used by the programs you maintain. This might be on GitHub, GitLab, Sourceforge, sourcehut or just a mailing list or custom solution.",
+          "node_type": "group",
+          "title": "Bugs"
+        }
+      ],
+      "title": "Tasks"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "wiggle",
+              "description": "applies rejected patches and performs word-wise diffs. So it will apply everything even things that may not be correct. It is quite powerful but needs extra careful checking.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 3925659,
+                "language": "C",
+                "last_commit": "2024-07-23T20:52:28Z",
+                "owner": "neilbrown",
+                "repo": "wiggle",
+                "stars": 108
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "wiggle"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "magic-trace",
+              "description": "is similar to perf. The key difference from perf is that instead of sampling call stacks throughout time, magic-trace uses Intel Processor Trace to snapshot a ring buffer of all control flow leading up to a chosen point in time. Then, you can explore an interactive timeline of what happened.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 452433468,
+                "language": "OCaml",
+                "last_commit": "2026-08-19T16:49:41Z",
+                "owner": "janestreet",
+                "repo": "magic-trace",
+                "stars": 6244
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "magic-trace"
+        }
+      ],
+      "title": "Tools"
+    },
+    {
+      "description": null,
+      "items": [
+        {
           "node_type": "item",
           "title": "mgornys Gentoo dev scripts",
           "description": null,
@@ -159,6 +259,50 @@
               "description": "Install",
               "node_type": "group",
               "title": "Setup"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "openSUSE-helpers",
+                  "description": "by DimStar77.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 31610959,
+                    "language": "Python",
+                    "last_commit": "2026-08-20T07:53:40Z",
+                    "owner": "DimStar77",
+                    "repo": "openSUSE-helpers",
+                    "stars": 5
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Useful scripts"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "How to find, debug and fix reproducibility issues in openSUSE OBS package build results",
+                  "description": "by bmwiedemann.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 51937478,
+                    "language": "Shell",
+                    "last_commit": "2026-08-06T15:16:56Z",
+                    "owner": "bmwiedemann",
+                    "repo": "reproducibleopensuse",
+                    "stars": 14
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Blog(posts)"
             }
           ],
           "description": "openSUSE develops and uses the Open Build System. It is a quite powerful generic system to build and distribute packages from sources in an automatic, consistent and reproducible way. It can not only build rpm packages for openSUSE but also packages for Debian, Ubuntu, Fedora, Arch Linux, AppImages and more.\nStart by creating an account on:\nThen, in order:\nmaintainers.opensuse.org is a helpful tool listing all the maintainers of a package, comparing the versions in different distributions, pointing to the devel project, etc.\nopenSUSE is currently in the process of switching to git instead of obs. See this wiki page for progress and current situation.",
@@ -170,7 +314,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T06:53:12.828Z",
+    "last_updated": "2026-08-24T14:31:15.167Z",
     "original_repository": "jubalh/awesome-package-maintainer",
     "original_repository_id": 587394200,
     "original_repository_sha": "583c4e94c743f5452c2529c686f94197f8030874",
