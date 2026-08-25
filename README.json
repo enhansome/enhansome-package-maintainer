@@ -36,10 +36,10 @@
                 "archived": false,
                 "id": 4542716,
                 "language": "Nix",
-                "last_commit": "2026-08-25T06:13:52Z",
+                "last_commit": "2026-08-25T06:37:57Z",
                 "owner": "NixOS",
                 "repo": "nixpkgs",
-                "stars": 25931
+                "stars": 25932
               }
             }
           ],
@@ -314,7 +314,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T06:22:19.904Z",
+    "last_updated": "2026-08-25T06:41:59.612Z",
     "original_repository": "jubalh/awesome-package-maintainer",
     "original_repository_id": 587394200,
     "original_repository_sha": "583c4e94c743f5452c2529c686f94197f8030874",
