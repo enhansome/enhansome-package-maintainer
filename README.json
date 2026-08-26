@@ -36,10 +36,10 @@
                 "archived": false,
                 "id": 4542716,
                 "language": "Nix",
-                "last_commit": "2026-08-25T06:37:57Z",
+                "last_commit": "2026-08-26T06:41:25Z",
                 "owner": "NixOS",
                 "repo": "nixpkgs",
-                "stars": 25932
+                "stars": 25943
               }
             }
           ],
@@ -89,7 +89,7 @@
                 "last_commit": "2026-08-19T16:49:41Z",
                 "owner": "janestreet",
                 "repo": "magic-trace",
-                "stars": 6245
+                "stars": 6246
               }
             }
           ],
@@ -271,7 +271,7 @@
                     "archived": false,
                     "id": 31610959,
                     "language": "Python",
-                    "last_commit": "2026-08-20T07:53:40Z",
+                    "last_commit": "2026-08-25T14:13:29Z",
                     "owner": "DimStar77",
                     "repo": "openSUSE-helpers",
                     "stars": 5
@@ -314,7 +314,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T06:41:59.612Z",
+    "last_updated": "2026-08-26T06:43:46.035Z",
     "original_repository": "jubalh/awesome-package-maintainer",
     "original_repository_id": 587394200,
     "original_repository_sha": "583c4e94c743f5452c2529c686f94197f8030874",
