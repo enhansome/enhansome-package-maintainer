@@ -36,10 +36,10 @@
                 "archived": false,
                 "id": 4542716,
                 "language": "Nix",
-                "last_commit": "2026-08-26T06:41:25Z",
+                "last_commit": "2026-08-27T11:47:25Z",
                 "owner": "NixOS",
                 "repo": "nixpkgs",
-                "stars": 25943
+                "stars": 25955
               }
             }
           ],
@@ -89,7 +89,7 @@
                 "last_commit": "2026-08-19T16:49:41Z",
                 "owner": "janestreet",
                 "repo": "magic-trace",
-                "stars": 6246
+                "stars": 6250
               }
             }
           ],
@@ -237,7 +237,7 @@
                     "last_commit": "2024-08-18T14:50:09Z",
                     "owner": "garabik",
                     "repo": "grc",
-                    "stars": 2190
+                    "stars": 2191
                   }
                 },
                 {
@@ -314,9 +314,16 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-26T06:43:46.035Z",
-    "original_repository": "jubalh/awesome-package-maintainer",
-    "original_repository_id": 587394200,
+    "last_updated": "2026-08-27T11:59:27.748Z",
+    "original_repository_info": {
+      "archived": false,
+      "id": 587394200,
+      "language": null,
+      "last_commit": "2025-07-08T14:35:13Z",
+      "owner": "jubalh",
+      "repo": "awesome-package-maintainer",
+      "stars": 296
+    },
     "original_repository_sha": "583c4e94c743f5452c2529c686f94197f8030874",
     "enhanced_repository": "enhansome/enhansome-package-maintainer",
     "enhanced_repository_description": null,
