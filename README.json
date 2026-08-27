@@ -36,7 +36,7 @@
                 "archived": false,
                 "id": 4542716,
                 "language": "Nix",
-                "last_commit": "2026-08-27T11:47:25Z",
+                "last_commit": "2026-08-27T17:14:28Z",
                 "owner": "NixOS",
                 "repo": "nixpkgs",
                 "stars": 25955
@@ -314,7 +314,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T11:59:27.748Z",
+    "last_updated": "2026-08-27T17:19:03.812Z",
     "original_repository_info": {
       "archived": false,
       "id": 587394200,
