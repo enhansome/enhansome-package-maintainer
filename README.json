@@ -18,7 +18,8 @@
                 "owner": "lilydjwg",
                 "repo": "nvchecker",
                 "stars": 563
-              }
+              },
+              "first_seen": "2026-08-28T18:11:35.484Z"
             }
           ],
           "description": "In a perfect world, you, as package maintainers, are in close contact with upstream. You monitor their development and take important bugfixes.\nHere are some ways how you can monitor a project or get notified about new releases:\nTo get an overview of which distro ships which version of a particular software we like to use repology. For example see this overview.\nmaintainer.opensuse.org also tracks packages from various sources.",
@@ -36,11 +37,12 @@
                 "archived": false,
                 "id": 4542716,
                 "language": "Nix",
-                "last_commit": "2026-08-27T17:14:28Z",
+                "last_commit": "2026-08-28T18:08:27Z",
                 "owner": "NixOS",
                 "repo": "nixpkgs",
-                "stars": 25955
-              }
+                "stars": 25961
+              },
+              "first_seen": "2026-08-28T18:11:35.484Z"
             }
           ],
           "description": "As a packager you need to be familiar with the particular bugtracker your distribution uses.\nBugzilla is used by:\nLaunchpad is used by:\nGitHub is used by:\nGitLab is used by:\nAdditionally it would be good if you are used to the issue trackers used by the programs you maintain. This might be on GitHub, GitLab, Sourceforge, sourcehut or just a mailing list or custom solution.",
@@ -68,7 +70,8 @@
                 "owner": "neilbrown",
                 "repo": "wiggle",
                 "stars": 108
-              }
+              },
+              "first_seen": "2026-08-28T18:11:35.484Z"
             }
           ],
           "description": null,
@@ -90,7 +93,8 @@
                 "owner": "janestreet",
                 "repo": "magic-trace",
                 "stars": 6250
-              }
+              },
+              "first_seen": "2026-08-28T18:11:35.484Z"
             }
           ],
           "description": null,
@@ -116,7 +120,8 @@
             "owner": "gentoo",
             "repo": "mgorny-dev-scripts",
             "stars": 40
-          }
+          },
+          "first_seen": "2026-08-28T18:11:35.484Z"
         },
         {
           "node_type": "item",
@@ -131,7 +136,8 @@
             "owner": "dcermak",
             "repo": "release-notes-scraper",
             "stars": 7
-          }
+          },
+          "first_seen": "2026-08-28T18:11:35.484Z"
         },
         {
           "node_type": "item",
@@ -146,7 +152,8 @@
             "owner": "dirkmueller",
             "repo": "changesgen",
             "stars": 3
-          }
+          },
+          "first_seen": "2026-08-28T18:11:35.484Z"
         },
         {
           "node_type": "item",
@@ -161,7 +168,8 @@
             "owner": "dirkmueller",
             "repo": "changesgen",
             "stars": 3
-          }
+          },
+          "first_seen": "2026-08-28T18:11:35.484Z"
         }
       ],
       "title": "Scripts and helpers"
@@ -184,7 +192,8 @@
                 "owner": "gentoo",
                 "repo": "mgorny-dev-scripts",
                 "stars": 40
-              }
+              },
+              "first_seen": "2026-08-28T18:11:35.484Z"
             },
             {
               "node_type": "item",
@@ -199,7 +208,8 @@
                 "owner": "ionenwks",
                 "repo": "iwdevtools",
                 "stars": 24
-              }
+              },
+              "first_seen": "2026-08-28T18:11:35.484Z"
             },
             {
               "node_type": "item",
@@ -210,11 +220,12 @@
                 "archived": false,
                 "id": 469921711,
                 "language": "Shell",
-                "last_commit": "2026-08-21T03:37:47Z",
+                "last_commit": "2026-08-28T05:29:28Z",
                 "owner": "thesamesam",
                 "repo": "sam-gentoo-scripts",
                 "stars": 24
-              }
+              },
+              "first_seen": "2026-08-28T18:11:35.484Z"
             }
           ],
           "description": "We recommend to use portage with git and use that as your working tree as well. Edit to include:\nThis will make portage aware that there can be changes in the repo not done by portage and do none shallow git clones. This will See for more details.\nUseful tools:",
@@ -237,8 +248,9 @@
                     "last_commit": "2024-08-18T14:50:09Z",
                     "owner": "garabik",
                     "repo": "grc",
-                    "stars": 2191
-                  }
+                    "stars": 2193
+                  },
+                  "first_seen": "2026-08-28T18:11:35.484Z"
                 },
                 {
                   "node_type": "item",
@@ -253,7 +265,8 @@
                     "owner": "rpm-software-management",
                     "repo": "spec-cleaner",
                     "stars": 33
-                  }
+                  },
+                  "first_seen": "2026-08-28T18:11:35.484Z"
                 }
               ],
               "description": "Install",
@@ -275,7 +288,8 @@
                     "owner": "DimStar77",
                     "repo": "openSUSE-helpers",
                     "stars": 5
-                  }
+                  },
+                  "first_seen": "2026-08-28T18:11:35.484Z"
                 }
               ],
               "description": null,
@@ -297,7 +311,8 @@
                     "owner": "bmwiedemann",
                     "repo": "reproducibleopensuse",
                     "stars": 14
-                  }
+                  },
+                  "first_seen": "2026-08-28T18:11:35.484Z"
                 }
               ],
               "description": null,
@@ -314,7 +329,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T17:19:03.812Z",
+    "last_updated": "2026-08-28T18:11:35.484Z",
     "original_repository_info": {
       "archived": false,
       "id": 587394200,
