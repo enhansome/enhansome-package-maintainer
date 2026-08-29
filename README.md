@@ -145,7 +145,7 @@ Launchpad is used by:
 
 [GitHub](https://github.com/) is used by:
 
-* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 25,964 | 🐛 20,960 | 🌐 Nix | 📅 2026-08-29
+* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 25,963 | 🐛 20,950 | 🌐 Nix | 📅 2026-08-29
 * [Homebrew](https://github.com/Homebrew)
 
 [GitLab](https://about.gitlab.com/) is used by:
@@ -507,7 +507,7 @@ These are tools to search in files. [grep](https://www.gnu.org/software/grep/) i
 Useful for developers and maintainers. It can also search only specific file types.
 For example `ack --cc close` searches all C files for the word `close`.
 [ag](https://geoff.greer.fm/ag/), also known as *The Silver Searcher*, is yet a little faster than ack and ignores files mentioned in `.gitignore`. Additionally it can search compressed files.
-[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 67,677 | 🐛 183 | 🌐 Rust | 📅 2026-08-04 is similar to ag but written in Rust.
+[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 67,688 | 🐛 183 | 🌐 Rust | 📅 2026-08-04 is similar to ag but written in Rust.
 
 See this excellent [comparison](https://beyondgrep.com/feature-comparison/) for more details.
 
@@ -618,7 +618,7 @@ $ gdb
 
 You can use plugins, scripts and tools to optmize your gdb usage for certain tasks.
 
-One example is [gef](https://github.com/hugsy/gef) ⭐ 8,327 | 🐛 14 | 🌐 Python | 📅 2026-08-20. It assists exploit developers and reverse-engineers when using old school GDB. It provides additional features to GDB using the Python API to assist during the process of dynamic analysis and exploit development. Application developers will also benefit from it, as GEF lifts a great part of regular GDB obscurity, avoiding repeating traditional commands, or bringing out the relevant information from the debugging runtime.
+One example is [gef](https://github.com/hugsy/gef) ⭐ 8,325 | 🐛 14 | 🌐 Python | 📅 2026-08-20. It assists exploit developers and reverse-engineers when using old school GDB. It provides additional features to GDB using the Python API to assist during the process of dynamic analysis and exploit development. Application developers will also benefit from it, as GEF lifts a great part of regular GDB obscurity, avoiding repeating traditional commands, or bringing out the relevant information from the debugging runtime.
 
 ![alt text](https://github.com/jubalh/awesome-package-maintainer/blob/master/img/gef.png?raw=true)
 
@@ -771,7 +771,7 @@ ldd ./src/myprog
 	libcurl.so.4 => /lib64/libcurl.so.4 (0x00007f36e4297000)
 ```
 
-There is also [libtree](https://github.com/haampie/libtree) ⭐ 2,771 | 🐛 12 | 🌐 C | 📅 2024-06-21 which is doing the same but displays it as a tree.
+There is also [libtree](https://github.com/haampie/libtree) ⭐ 2,772 | 🐛 12 | 🌐 C | 📅 2024-06-21 which is doing the same but displays it as a tree.
 
 ![Screenshot of libtree](https://github.com/haampie/libtree/blob/master/doc/screenshot.png?raw=true)
 
