@@ -12,12 +12,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "New version checker for software releases",
+                "homepage": null,
                 "id": 10294702,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-08-22T06:05:36Z",
+                "open_issues": 13,
                 "owner": "lilydjwg",
                 "repo": "nvchecker",
-                "stars": 563
+                "stars": 563,
+                "topics": [
+                  "package-tracker",
+                  "packaging",
+                  "release-helper",
+                  "software"
+                ]
               },
               "first_seen": "2026-08-28T18:11:35.484Z"
             }
@@ -35,12 +45,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Nix Packages collection & NixOS",
+                "homepage": null,
                 "id": 4542716,
                 "language": "Nix",
-                "last_commit": "2026-08-28T18:08:27Z",
+                "license": "MIT",
+                "last_commit": "2026-08-29T03:37:30Z",
+                "open_issues": 20960,
                 "owner": "NixOS",
                 "repo": "nixpkgs",
-                "stars": 25961
+                "stars": 25964,
+                "topics": [
+                  "hacktoberfest",
+                  "linux",
+                  "nix",
+                  "nixos",
+                  "nixpkgs"
+                ]
               },
               "first_seen": "2026-08-28T18:11:35.484Z"
             }
@@ -64,12 +85,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "apply rejected patches and perform word-wise diffs",
+                "homepage": "http://neil.brown.name/wiggle",
                 "id": 3925659,
                 "language": "C",
+                "license": "GPL-2.0",
                 "last_commit": "2024-07-23T20:52:28Z",
+                "open_issues": 6,
                 "owner": "neilbrown",
                 "repo": "wiggle",
-                "stars": 108
+                "stars": 108,
+                "topics": []
               },
               "first_seen": "2026-08-28T18:11:35.484Z"
             }
@@ -87,12 +113,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "magic-trace collects and displays high-resolution traces of what a process is doing",
+                "homepage": "https://magic-trace.org",
                 "id": 452433468,
                 "language": "OCaml",
+                "license": "MIT",
                 "last_commit": "2026-08-19T16:49:41Z",
+                "open_issues": 70,
                 "owner": "janestreet",
                 "repo": "magic-trace",
-                "stars": 6250
+                "stars": 6250,
+                "topics": [
+                  "intel",
+                  "introspection",
+                  "performance-tools",
+                  "profile",
+                  "tracing",
+                  "visualizer",
+                  "x86"
+                ]
               },
               "first_seen": "2026-08-28T18:11:35.484Z"
             }
@@ -114,12 +153,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Quick & dirty ebuild development scripts",
+            "homepage": null,
             "id": 175802149,
             "language": "Shell",
+            "license": "GPL-2.0",
             "last_commit": "2026-08-21T15:54:08Z",
+            "open_issues": 6,
             "owner": "gentoo",
             "repo": "mgorny-dev-scripts",
-            "stars": 40
+            "stars": 40,
+            "topics": []
           },
           "first_seen": "2026-08-28T18:11:35.484Z"
         },
@@ -130,12 +174,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Grab the changelog from releases on Github",
+            "homepage": null,
             "id": 436256358,
             "language": "Python",
+            "license": "GPL-3.0",
             "last_commit": "2026-08-18T15:12:55Z",
+            "open_issues": 1,
             "owner": "dcermak",
             "repo": "release-notes-scraper",
-            "stars": 7
+            "stars": 7,
+            "topics": []
           },
           "first_seen": "2026-08-28T18:11:35.484Z"
         },
@@ -146,12 +195,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": null,
+            "homepage": null,
             "id": 574145545,
             "language": "Python",
+            "license": "GPL-2.0",
             "last_commit": "2026-04-12T18:53:42Z",
+            "open_issues": 0,
             "owner": "dirkmueller",
             "repo": "changesgen",
-            "stars": 3
+            "stars": 3,
+            "topics": []
           },
           "first_seen": "2026-08-28T18:11:35.484Z"
         },
@@ -162,12 +216,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": null,
+            "homepage": null,
             "id": 574145545,
             "language": "Python",
+            "license": "GPL-2.0",
             "last_commit": "2026-04-12T18:53:42Z",
+            "open_issues": 0,
             "owner": "dirkmueller",
             "repo": "changesgen",
-            "stars": 3
+            "stars": 3,
+            "topics": []
           },
           "first_seen": "2026-08-28T18:11:35.484Z"
         }
@@ -186,12 +245,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Quick & dirty ebuild development scripts",
+                "homepage": null,
                 "id": 175802149,
                 "language": "Shell",
+                "license": "GPL-2.0",
                 "last_commit": "2026-08-21T15:54:08Z",
+                "open_issues": 6,
                 "owner": "gentoo",
                 "repo": "mgorny-dev-scripts",
-                "stars": 40
+                "stars": 40,
+                "topics": []
               },
               "first_seen": "2026-08-28T18:11:35.484Z"
             },
@@ -202,12 +266,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Small tools to aid with Gentoo development, primarily intended for QA",
+                "homepage": null,
                 "id": 395447267,
                 "language": "Shell",
+                "license": "BSD-2-Clause",
                 "last_commit": "2026-07-06T16:11:39Z",
+                "open_issues": 6,
                 "owner": "ionenwks",
                 "repo": "iwdevtools",
-                "stars": 24
+                "stars": 24,
+                "topics": []
               },
               "first_seen": "2026-08-28T18:11:35.484Z"
             },
@@ -218,12 +287,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Set of scripts I use for Gentoo development.",
+                "homepage": null,
                 "id": 469921711,
                 "language": "Shell",
-                "last_commit": "2026-08-28T05:29:28Z",
+                "license": "GPL-2.0",
+                "last_commit": "2026-08-29T01:43:26Z",
+                "open_issues": 1,
                 "owner": "thesamesam",
                 "repo": "sam-gentoo-scripts",
-                "stars": 24
+                "stars": 24,
+                "topics": [
+                  "ebuild",
+                  "gentoo",
+                  "scripts"
+                ]
               },
               "first_seen": "2026-08-28T18:11:35.484Z"
             }
@@ -243,12 +321,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "generic colouriser",
+                    "homepage": "http://kassiopeia.juls.savba.sk/~garabik/software/grc.html",
                     "id": 29822859,
                     "language": "Python",
+                    "license": "NOASSERTION",
                     "last_commit": "2024-08-18T14:50:09Z",
+                    "open_issues": 95,
                     "owner": "garabik",
                     "repo": "grc",
-                    "stars": 2193
+                    "stars": 2193,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T18:11:35.484Z"
                 },
@@ -259,12 +342,23 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "spec-cleaner",
+                    "homepage": null,
                     "id": 13555281,
                     "language": "Python",
+                    "license": "BSD-3-Clause",
                     "last_commit": "2026-04-01T11:15:50Z",
+                    "open_issues": 9,
                     "owner": "rpm-software-management",
                     "repo": "spec-cleaner",
-                    "stars": 33
+                    "stars": 33,
+                    "topics": [
+                      "python",
+                      "rpm",
+                      "rpm-packages",
+                      "rpm-spec",
+                      "suse"
+                    ]
                   },
                   "first_seen": "2026-08-28T18:11:35.484Z"
                 }
@@ -282,12 +376,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Tools/Scripts I use in my Factory and PRJ maintainer workflows.",
+                    "homepage": null,
                     "id": 31610959,
                     "language": "Python",
+                    "license": null,
                     "last_commit": "2026-08-25T14:13:29Z",
+                    "open_issues": 0,
                     "owner": "DimStar77",
                     "repo": "openSUSE-helpers",
-                    "stars": 5
+                    "stars": 5,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T18:11:35.484Z"
                 }
@@ -305,12 +404,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "scripts to help make opensuse builds reproducible",
+                    "homepage": null,
                     "id": 51937478,
                     "language": "Shell",
+                    "license": "GPL-2.0",
                     "last_commit": "2026-08-25T05:51:04Z",
+                    "open_issues": 1,
                     "owner": "bmwiedemann",
                     "repo": "reproducibleopensuse",
-                    "stars": 14
+                    "stars": 14,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T18:11:35.484Z"
                 }
@@ -329,15 +433,26 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-28T18:11:35.484Z",
+    "last_updated": "2026-08-29T04:49:52.274Z",
     "original_repository_info": {
       "archived": false,
+      "description": "How to become a packager",
+      "homepage": null,
       "id": 587394200,
       "language": null,
+      "license": null,
       "last_commit": "2025-07-08T14:35:13Z",
+      "open_issues": 0,
       "owner": "jubalh",
       "repo": "awesome-package-maintainer",
-      "stars": 296
+      "stars": 296,
+      "topics": [
+        "awesome-list",
+        "how-to",
+        "packages",
+        "packaging",
+        "tutorial"
+      ]
     },
     "original_repository_sha": "583c4e94c743f5452c2529c686f94197f8030874",
     "enhanced_repository": "enhansome/enhansome-package-maintainer",
