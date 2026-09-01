@@ -21,7 +21,7 @@
                 "open_issues": 13,
                 "owner": "lilydjwg",
                 "repo": "nvchecker",
-                "stars": 563,
+                "stars": 565,
                 "topics": [
                   "package-tracker",
                   "packaging",
@@ -50,11 +50,11 @@
                 "id": 4542716,
                 "language": "Nix",
                 "license": "MIT",
-                "last_commit": "2026-08-31T12:40:22Z",
-                "open_issues": 21110,
+                "last_commit": "2026-09-01T11:04:44Z",
+                "open_issues": 21058,
                 "owner": "NixOS",
                 "repo": "nixpkgs",
-                "stars": 25991,
+                "stars": 25995,
                 "topics": [
                   "hacktoberfest",
                   "linux",
@@ -433,7 +433,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-31T12:41:03.242Z",
+    "last_updated": "2026-09-01T11:05:34.009Z",
     "original_repository_info": {
       "archived": false,
       "description": "How to become a packager",

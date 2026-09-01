@@ -97,7 +97,7 @@ You monitor their development and take important bugfixes.
 
 Here are some ways how you can monitor a project or get notified about new releases:
 
-* Use [nvchecker](https://github.com/lilydjwg/nvchecker) ⭐ 563 | 🐛 13 | 🌐 Python | 📅 2026-08-22.
+* Use [nvchecker](https://github.com/lilydjwg/nvchecker) ⭐ 565 | 🐛 13 | 🌐 Python | 📅 2026-08-22.
 * Join the `-announce` mailing list of the project.
 * *watch* the project on GitHub/GitLab (a button in the top right corner).
 * Some distributions have their own tooling that reminds you about new releases. Debian uses a [watch file](https://wiki.debian.org/debian/watch).
@@ -145,7 +145,7 @@ Launchpad is used by:
 
 [GitHub](https://github.com/) is used by:
 
-* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 25,991 | 🐛 21,110 | 🌐 Nix | 📅 2026-08-31
+* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 25,995 | 🐛 21,058 | 🌐 Nix | 📅 2026-09-01
 * [Homebrew](https://github.com/Homebrew)
 
 [GitLab](https://about.gitlab.com/) is used by:
@@ -507,7 +507,7 @@ These are tools to search in files. [grep](https://www.gnu.org/software/grep/) i
 Useful for developers and maintainers. It can also search only specific file types.
 For example `ack --cc close` searches all C files for the word `close`.
 [ag](https://geoff.greer.fm/ag/), also known as *The Silver Searcher*, is yet a little faster than ack and ignores files mentioned in `.gitignore`. Additionally it can search compressed files.
-[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 67,744 | 🐛 183 | 🌐 Rust | 📅 2026-08-04 is similar to ag but written in Rust.
+[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 67,802 | 🐛 184 | 🌐 Rust | 📅 2026-08-04 is similar to ag but written in Rust.
 
 See this excellent [comparison](https://beyondgrep.com/feature-comparison/) for more details.
 
@@ -539,7 +539,7 @@ The following tools will mostly be about debugging.
 ## gdb
 
 [gdb](https://www.gnu.org/software/gdb) is a debugger.
-[seer](https://github.com/epasveer/seer) ⭐ 3,429 | 🐛 47 | 🌐 C++ | 📅 2026-08-30 is a nice GUI frontend for gdb.
+[seer](https://github.com/epasveer/seer) ⭐ 3,429 | 🐛 42 | 🌐 C++ | 📅 2026-08-31 is a nice GUI frontend for gdb.
 
 * [How does gdb work?](https://jvns.ca/blog/2016/08/10/how-does-gdb-work/) by [jvns](https://github.com/jvns).
 
@@ -618,7 +618,7 @@ $ gdb
 
 You can use plugins, scripts and tools to optmize your gdb usage for certain tasks.
 
-One example is [gef](https://github.com/hugsy/gef) ⭐ 8,329 | 🐛 14 | 🌐 Python | 📅 2026-08-20. It assists exploit developers and reverse-engineers when using old school GDB. It provides additional features to GDB using the Python API to assist during the process of dynamic analysis and exploit development. Application developers will also benefit from it, as GEF lifts a great part of regular GDB obscurity, avoiding repeating traditional commands, or bringing out the relevant information from the debugging runtime.
+One example is [gef](https://github.com/hugsy/gef) ⭐ 8,332 | 🐛 14 | 🌐 Python | 📅 2026-08-20. It assists exploit developers and reverse-engineers when using old school GDB. It provides additional features to GDB using the Python API to assist during the process of dynamic analysis and exploit development. Application developers will also benefit from it, as GEF lifts a great part of regular GDB obscurity, avoiding repeating traditional commands, or bringing out the relevant information from the debugging runtime.
 
 ![alt text](https://github.com/jubalh/awesome-package-maintainer/blob/master/img/gef.png?raw=true)
 
@@ -1308,7 +1308,7 @@ There are some tools to verify that the package generated is correct
 and follows the distribution guidelines.
 
 * [lintian](https://wiki.debian.org/Lintian), for .deb packages
-* [rpmlint](https://github.com/rpm-software-management/rpmlint) ⭐ 162 | 🐛 90 | 🌐 Python | 📅 2026-08-27, for
+* [rpmlint](https://github.com/rpm-software-management/rpmlint) ⭐ 162 | 🐛 92 | 🌐 Python | 📅 2026-08-31, for
   .rpm packages.
 
 ## rpmlint
@@ -1408,7 +1408,7 @@ several choices to filter the warning or error from rpmlint output:
 * Use a rpmlintrc file, rpmlint will load any `*.rpmlintrc` or
   `*-rpmlintrc` located in the same folder as the checked package.
 
-You can find more details about how to configure in the [rpmlint doc](https://github.com/rpm-software-management/rpmlint?tab=readme-ov-file#configuration) ⭐ 162 | 🐛 90 | 🌐 Python | 📅 2026-08-27
+You can find more details about how to configure in the [rpmlint doc](https://github.com/rpm-software-management/rpmlint?tab=readme-ov-file#configuration) ⭐ 162 | 🐛 92 | 🌐 Python | 📅 2026-08-31
 
 # Post packaging
 
@@ -1428,4 +1428,4 @@ Special thanks and credit to the whole SUSE Pack team, and to:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-31._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-01._
