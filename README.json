@@ -18,7 +18,7 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-08-22T06:05:36Z",
-                "open_issues": 13,
+                "open_issues": 14,
                 "owner": "lilydjwg",
                 "repo": "nvchecker",
                 "stars": 565,
@@ -50,11 +50,11 @@
                 "id": 4542716,
                 "language": "Nix",
                 "license": "MIT",
-                "last_commit": "2026-09-01T11:04:44Z",
-                "open_issues": 21058,
+                "last_commit": "2026-09-02T10:37:32Z",
+                "open_issues": 21088,
                 "owner": "NixOS",
                 "repo": "nixpkgs",
-                "stars": 25995,
+                "stars": 26001,
                 "topics": [
                   "hacktoberfest",
                   "linux",
@@ -122,7 +122,7 @@
                 "open_issues": 70,
                 "owner": "janestreet",
                 "repo": "magic-trace",
-                "stars": 6253,
+                "stars": 6255,
                 "topics": [
                   "intel",
                   "introspection",
@@ -330,7 +330,7 @@
                     "open_issues": 95,
                     "owner": "garabik",
                     "repo": "grc",
-                    "stars": 2195,
+                    "stars": 2194,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T18:11:35.484Z"
@@ -433,7 +433,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-01T11:05:34.009Z",
+    "last_updated": "2026-09-02T10:37:45.500Z",
     "original_repository_info": {
       "archived": false,
       "description": "How to become a packager",
