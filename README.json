@@ -50,11 +50,11 @@
                 "id": 4542716,
                 "language": "Nix",
                 "license": "MIT",
-                "last_commit": "2026-09-04T10:34:47Z",
-                "open_issues": 21245,
+                "last_commit": "2026-09-05T09:56:39Z",
+                "open_issues": 21179,
                 "owner": "NixOS",
                 "repo": "nixpkgs",
-                "stars": 26022,
+                "stars": 26032,
                 "topics": [
                   "hacktoberfest",
                   "linux",
@@ -122,7 +122,7 @@
                 "open_issues": 70,
                 "owner": "janestreet",
                 "repo": "magic-trace",
-                "stars": 6258,
+                "stars": 6261,
                 "topics": [
                   "intel",
                   "introspection",
@@ -158,7 +158,7 @@
             "id": 175802149,
             "language": "Shell",
             "license": "GPL-2.0",
-            "last_commit": "2026-08-21T15:54:08Z",
+            "last_commit": "2026-09-05T08:39:23Z",
             "open_issues": 6,
             "owner": "gentoo",
             "repo": "mgorny-dev-scripts",
@@ -250,7 +250,7 @@
                 "id": 175802149,
                 "language": "Shell",
                 "license": "GPL-2.0",
-                "last_commit": "2026-08-21T15:54:08Z",
+                "last_commit": "2026-09-05T08:39:23Z",
                 "open_issues": 6,
                 "owner": "gentoo",
                 "repo": "mgorny-dev-scripts",
@@ -433,7 +433,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-04T10:35:20.756Z",
+    "last_updated": "2026-09-05T09:56:52.917Z",
     "original_repository_info": {
       "archived": false,
       "description": "How to become a packager",
