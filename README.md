@@ -145,7 +145,7 @@ Launchpad is used by:
 
 [GitHub](https://github.com/) is used by:
 
-* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 26,073 | 🐛 21,117 | 🌐 Nix | 📅 2026-09-10
+* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 26,088 | 🐛 21,145 | 🌐 Nix | 📅 2026-09-11
 * [Homebrew](https://github.com/Homebrew)
 
 [GitLab](https://about.gitlab.com/) is used by:
@@ -395,7 +395,7 @@ And to import a patch from another location you could use `quilt import ~/Downlo
 
 ## wiggle
 
-[wiggle](https://github.com/neilbrown/wiggle/) ⭐ 109 | 🐛 6 | 🌐 C | 📅 2024-07-23 applies rejected patches and performs word-wise diffs.
+[wiggle](https://github.com/neilbrown/wiggle/) ⭐ 110 | 🐛 6 | 🌐 C | 📅 2024-07-23 applies rejected patches and performs word-wise diffs.
 So it will apply everything even things that may not be correct. It is quite powerful but needs extra careful checking.
 
 1. Use quilt to apply patch
@@ -507,7 +507,7 @@ These are tools to search in files. [grep](https://www.gnu.org/software/grep/) i
 Useful for developers and maintainers. It can also search only specific file types.
 For example `ack --cc close` searches all C files for the word `close`.
 [ag](https://geoff.greer.fm/ag/), also known as *The Silver Searcher*, is yet a little faster than ack and ignores files mentioned in `.gitignore`. Additionally it can search compressed files.
-[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 68,141 | 🐛 191 | 🌐 Rust | 📅 2026-08-04 is similar to ag but written in Rust.
+[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 68,175 | 🐛 191 | 🌐 Rust | 📅 2026-08-04 is similar to ag but written in Rust.
 
 See this excellent [comparison](https://beyondgrep.com/feature-comparison/) for more details.
 
@@ -519,7 +519,7 @@ perf is a tool that can be used to analyze performance and trace functions.
 
 ## magic-trace
 
-[magic-trace](https://github.com/janestreet/magic-trace) ⭐ 6,265 | 🐛 70 | 🌐 OCaml | 📅 2026-08-19 is similar to perf.
+[magic-trace](https://github.com/janestreet/magic-trace) ⭐ 6,266 | 🐛 70 | 🌐 OCaml | 📅 2026-08-19 is similar to perf.
 The key difference from perf is that instead of sampling call stacks throughout time, magic-trace uses Intel Processor Trace to snapshot a ring buffer of all control flow leading up to a chosen point in time. Then, you can explore an interactive timeline of what happened.
 
 ## More tools
@@ -618,7 +618,7 @@ $ gdb
 
 You can use plugins, scripts and tools to optmize your gdb usage for certain tasks.
 
-One example is [gef](https://github.com/hugsy/gef) ⭐ 8,348 | 🐛 14 | 🌐 Python | 📅 2026-08-20. It assists exploit developers and reverse-engineers when using old school GDB. It provides additional features to GDB using the Python API to assist during the process of dynamic analysis and exploit development. Application developers will also benefit from it, as GEF lifts a great part of regular GDB obscurity, avoiding repeating traditional commands, or bringing out the relevant information from the debugging runtime.
+One example is [gef](https://github.com/hugsy/gef) ⭐ 8,350 | 🐛 14 | 🌐 Python | 📅 2026-08-20. It assists exploit developers and reverse-engineers when using old school GDB. It provides additional features to GDB using the Python API to assist during the process of dynamic analysis and exploit development. Application developers will also benefit from it, as GEF lifts a great part of regular GDB obscurity, avoiding repeating traditional commands, or bringing out the relevant information from the debugging runtime.
 
 ![alt text](https://github.com/jubalh/awesome-package-maintainer/blob/master/img/gef.png?raw=true)
 
@@ -1308,7 +1308,7 @@ There are some tools to verify that the package generated is correct
 and follows the distribution guidelines.
 
 * [lintian](https://wiki.debian.org/Lintian), for .deb packages
-* [rpmlint](https://github.com/rpm-software-management/rpmlint) ⭐ 163 | 🐛 90 | 🌐 Python | 📅 2026-09-09, for
+* [rpmlint](https://github.com/rpm-software-management/rpmlint) ⭐ 163 | 🐛 90 | 🌐 Python | 📅 2026-09-11, for
   .rpm packages.
 
 ## rpmlint
@@ -1408,7 +1408,7 @@ several choices to filter the warning or error from rpmlint output:
 * Use a rpmlintrc file, rpmlint will load any `*.rpmlintrc` or
   `*-rpmlintrc` located in the same folder as the checked package.
 
-You can find more details about how to configure in the [rpmlint doc](https://github.com/rpm-software-management/rpmlint?tab=readme-ov-file#configuration) ⭐ 163 | 🐛 90 | 🌐 Python | 📅 2026-09-09
+You can find more details about how to configure in the [rpmlint doc](https://github.com/rpm-software-management/rpmlint?tab=readme-ov-file#configuration) ⭐ 163 | 🐛 90 | 🌐 Python | 📅 2026-09-11
 
 # Post packaging
 
@@ -1428,4 +1428,4 @@ Special thanks and credit to the whole SUSE Pack team, and to:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-10._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-11._
