@@ -145,7 +145,7 @@ Launchpad is used by:
 
 [GitHub](https://github.com/) is used by:
 
-* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 26,108 | 🐛 21,295 | 🌐 Nix | 📅 2026-09-13
+* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 26,121 | 🐛 21,296 | 🌐 Nix | 📅 2026-09-14
 * [Homebrew](https://github.com/Homebrew)
 
 [GitLab](https://about.gitlab.com/) is used by:
@@ -507,7 +507,7 @@ These are tools to search in files. [grep](https://www.gnu.org/software/grep/) i
 Useful for developers and maintainers. It can also search only specific file types.
 For example `ack --cc close` searches all C files for the word `close`.
 [ag](https://geoff.greer.fm/ag/), also known as *The Silver Searcher*, is yet a little faster than ack and ignores files mentioned in `.gitignore`. Additionally it can search compressed files.
-[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 68,220 | 🐛 194 | 🌐 Rust | 📅 2026-08-04 is similar to ag but written in Rust.
+[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 68,248 | 🐛 195 | 🌐 Rust | 📅 2026-08-04 is similar to ag but written in Rust.
 
 See this excellent [comparison](https://beyondgrep.com/feature-comparison/) for more details.
 
@@ -539,7 +539,7 @@ The following tools will mostly be about debugging.
 ## gdb
 
 [gdb](https://www.gnu.org/software/gdb) is a debugger.
-[seer](https://github.com/epasveer/seer) ⭐ 3,436 | 🐛 43 | 🌐 C++ | 📅 2026-09-12 is a nice GUI frontend for gdb.
+[seer](https://github.com/epasveer/seer) ⭐ 3,437 | 🐛 42 | 🌐 C++ | 📅 2026-09-13 is a nice GUI frontend for gdb.
 
 * [How does gdb work?](https://jvns.ca/blog/2016/08/10/how-does-gdb-work/) by [jvns](https://github.com/jvns).
 
@@ -618,7 +618,7 @@ $ gdb
 
 You can use plugins, scripts and tools to optmize your gdb usage for certain tasks.
 
-One example is [gef](https://github.com/hugsy/gef) ⭐ 8,354 | 🐛 15 | 🌐 Python | 📅 2026-08-20. It assists exploit developers and reverse-engineers when using old school GDB. It provides additional features to GDB using the Python API to assist during the process of dynamic analysis and exploit development. Application developers will also benefit from it, as GEF lifts a great part of regular GDB obscurity, avoiding repeating traditional commands, or bringing out the relevant information from the debugging runtime.
+One example is [gef](https://github.com/hugsy/gef) ⭐ 8,356 | 🐛 15 | 🌐 Python | 📅 2026-08-20. It assists exploit developers and reverse-engineers when using old school GDB. It provides additional features to GDB using the Python API to assist during the process of dynamic analysis and exploit development. Application developers will also benefit from it, as GEF lifts a great part of regular GDB obscurity, avoiding repeating traditional commands, or bringing out the relevant information from the debugging runtime.
 
 ![alt text](https://github.com/jubalh/awesome-package-maintainer/blob/master/img/gef.png?raw=true)
 
@@ -771,7 +771,7 @@ ldd ./src/myprog
 	libcurl.so.4 => /lib64/libcurl.so.4 (0x00007f36e4297000)
 ```
 
-There is also [libtree](https://github.com/haampie/libtree) ⭐ 2,771 | 🐛 12 | 🌐 C | 📅 2024-06-21 which is doing the same but displays it as a tree.
+There is also [libtree](https://github.com/haampie/libtree) ⭐ 2,772 | 🐛 12 | 🌐 C | 📅 2024-06-21 which is doing the same but displays it as a tree.
 
 ![Screenshot of libtree](https://github.com/haampie/libtree/blob/master/doc/screenshot.png?raw=true)
 
@@ -978,7 +978,7 @@ openSUSE is currently in the process of switching to git instead of obs. See [th
 
 Install
 
-* [grc](https://github.com/garabik/grc) ⭐ 2,198 | 🐛 95 | 🌐 Python | 📅 2024-08-18 (`zypper in grc`) to have colorized and more readable output when building with `grc osc build`.
+* [grc](https://github.com/garabik/grc) ⭐ 2,199 | 🐛 95 | 🌐 Python | 📅 2024-08-18 (`zypper in grc`) to have colorized and more readable output when building with `grc osc build`.
 * [spec-cleaner](https://github.com/rpm-software-management/spec-cleaner) ⭐ 33 | 🐛 9 | 🌐 Python | 📅 2026-04-01 (`zypper in spec-cleaner`) to clean the spec file according to the style guide.
 
 ### Configure osc
@@ -1428,4 +1428,4 @@ Special thanks and credit to the whole SUSE Pack team, and to:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-13._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-14._
