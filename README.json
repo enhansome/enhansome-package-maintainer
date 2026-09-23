@@ -50,11 +50,11 @@
                 "id": 4542716,
                 "language": "Nix",
                 "license": "MIT",
-                "last_commit": "2026-09-22T10:45:05Z",
-                "open_issues": 21313,
+                "last_commit": "2026-09-23T10:28:39Z",
+                "open_issues": 21417,
                 "owner": "NixOS",
                 "repo": "nixpkgs",
-                "stars": 26212,
+                "stars": 26218,
                 "topics": [
                   "hacktoberfest",
                   "linux",
@@ -122,7 +122,7 @@
                 "open_issues": 70,
                 "owner": "janestreet",
                 "repo": "magic-trace",
-                "stars": 6276,
+                "stars": 6277,
                 "topics": [
                   "intel",
                   "introspection",
@@ -348,7 +348,7 @@
                     "language": "Python",
                     "license": "BSD-3-Clause",
                     "last_commit": "2026-09-22T09:53:06Z",
-                    "open_issues": 8,
+                    "open_issues": 12,
                     "owner": "rpm-software-management",
                     "repo": "spec-cleaner",
                     "stars": 33,
@@ -381,7 +381,7 @@
                     "id": 31610959,
                     "language": "Python",
                     "license": null,
-                    "last_commit": "2026-09-21T08:12:13Z",
+                    "last_commit": "2026-09-22T17:06:01Z",
                     "open_issues": 0,
                     "owner": "DimStar77",
                     "repo": "openSUSE-helpers",
@@ -433,7 +433,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-22T10:57:50.824Z",
+    "last_updated": "2026-09-23T10:45:56.485Z",
     "original_repository_info": {
       "archived": false,
       "description": "How to become a packager",
