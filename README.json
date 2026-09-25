@@ -50,11 +50,11 @@
                 "id": 4542716,
                 "language": "Nix",
                 "license": "MIT",
-                "last_commit": "2026-09-24T11:02:04Z",
-                "open_issues": 21416,
+                "last_commit": "2026-09-25T11:07:36Z",
+                "open_issues": 21494,
                 "owner": "NixOS",
                 "repo": "nixpkgs",
-                "stars": 26236,
+                "stars": 26247,
                 "topics": [
                   "hacktoberfest",
                   "linux",
@@ -119,10 +119,10 @@
                 "language": "OCaml",
                 "license": "MIT",
                 "last_commit": "2026-08-19T16:49:41Z",
-                "open_issues": 70,
+                "open_issues": 72,
                 "owner": "janestreet",
                 "repo": "magic-trace",
-                "stars": 6277,
+                "stars": 6280,
                 "topics": [
                   "intel",
                   "introspection",
@@ -330,7 +330,7 @@
                     "open_issues": 95,
                     "owner": "garabik",
                     "repo": "grc",
-                    "stars": 2200,
+                    "stars": 2199,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T18:11:35.484Z"
@@ -347,8 +347,8 @@
                     "id": 13555281,
                     "language": "Python",
                     "license": "BSD-3-Clause",
-                    "last_commit": "2026-09-23T19:22:38Z",
-                    "open_issues": 8,
+                    "last_commit": "2026-09-25T06:01:00Z",
+                    "open_issues": 1,
                     "owner": "rpm-software-management",
                     "repo": "spec-cleaner",
                     "stars": 33,
@@ -381,7 +381,7 @@
                     "id": 31610959,
                     "language": "Python",
                     "license": null,
-                    "last_commit": "2026-09-24T08:04:46Z",
+                    "last_commit": "2026-09-24T15:52:10Z",
                     "open_issues": 0,
                     "owner": "DimStar77",
                     "repo": "openSUSE-helpers",
@@ -433,7 +433,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-24T11:06:20.812Z",
+    "last_updated": "2026-09-25T11:08:05.387Z",
     "original_repository_info": {
       "archived": false,
       "description": "How to become a packager",
