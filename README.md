@@ -145,7 +145,7 @@ Launchpad is used by:
 
 [GitHub](https://github.com/) is used by:
 
-* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 26,303 | 🐛 21,779 | 🌐 Nix | 📅 2026-10-01
+* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 26,315 | 🐛 21,831 | 🌐 Nix | 📅 2026-10-02
 * [Homebrew](https://github.com/Homebrew)
 
 [GitLab](https://about.gitlab.com/) is used by:
@@ -507,7 +507,7 @@ These are tools to search in files. [grep](https://www.gnu.org/software/grep/) i
 Useful for developers and maintainers. It can also search only specific file types.
 For example `ack --cc close` searches all C files for the word `close`.
 [ag](https://geoff.greer.fm/ag/), also known as *The Silver Searcher*, is yet a little faster than ack and ignores files mentioned in `.gitignore`. Additionally it can search compressed files.
-[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 68,756 | 🐛 201 | 🌐 Rust | 📅 2026-08-04 is similar to ag but written in Rust.
+[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 68,774 | 🐛 201 | 🌐 Rust | 📅 2026-08-04 is similar to ag but written in Rust.
 
 See this excellent [comparison](https://beyondgrep.com/feature-comparison/) for more details.
 
@@ -771,7 +771,7 @@ ldd ./src/myprog
 	libcurl.so.4 => /lib64/libcurl.so.4 (0x00007f36e4297000)
 ```
 
-There is also [libtree](https://github.com/haampie/libtree) ⭐ 2,775 | 🐛 12 | 🌐 C | 📅 2024-06-21 which is doing the same but displays it as a tree.
+There is also [libtree](https://github.com/haampie/libtree) ⭐ 2,776 | 🐛 12 | 🌐 C | 📅 2024-06-21 which is doing the same but displays it as a tree.
 
 ![Screenshot of libtree](https://github.com/haampie/libtree/blob/master/doc/screenshot.png?raw=true)
 
@@ -1256,7 +1256,7 @@ rpm -ql nudoku nudoku-debuginfo
 
 ### Useful scripts
 
-* [openSUSE-helpers](https://github.com/DimStar77/openSUSE-helpers) ⭐ 5 | 🐛 0 | 🌐 Python | 📅 2026-09-30 by [DimStar77](https://github.com/DimStar77).
+* [openSUSE-helpers](https://github.com/DimStar77/openSUSE-helpers) ⭐ 5 | 🐛 0 | 🌐 Python | 📅 2026-10-01 by [DimStar77](https://github.com/DimStar77).
 
 ### Blog(posts)
 
@@ -1428,4 +1428,4 @@ Special thanks and credit to the whole SUSE Pack team, and to:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-01._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-02._
