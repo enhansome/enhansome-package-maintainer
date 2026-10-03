@@ -8,7 +8,7 @@
             {
               "node_type": "item",
               "title": "Use nvchecker",
-              "description": ".",
+              "description": "lilydjwg/nvchecker",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -41,7 +41,7 @@
             {
               "node_type": "item",
               "title": "NixOS",
-              "description": null,
+              "description": "NixOS/nixpkgs",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -50,11 +50,11 @@
                 "id": 4542716,
                 "language": "Nix",
                 "license": "MIT",
-                "last_commit": "2026-10-02T11:49:29Z",
-                "open_issues": 21831,
+                "last_commit": "2026-10-03T04:49:29Z",
+                "open_issues": 21801,
                 "owner": "NixOS",
                 "repo": "nixpkgs",
-                "stars": 26315,
+                "stars": 26325,
                 "topics": [
                   "hacktoberfest",
                   "linux",
@@ -122,7 +122,7 @@
                 "open_issues": 74,
                 "owner": "janestreet",
                 "repo": "magic-trace",
-                "stars": 6284,
+                "stars": 6285,
                 "topics": [
                   "intel",
                   "introspection",
@@ -149,7 +149,7 @@
         {
           "node_type": "item",
           "title": "mgornys Gentoo dev scripts",
-          "description": null,
+          "description": "gentoo/mgorny-dev-scripts",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -381,7 +381,7 @@
                     "id": 31610959,
                     "language": "Python",
                     "license": null,
-                    "last_commit": "2026-10-01T17:18:59Z",
+                    "last_commit": "2026-10-02T15:57:27Z",
                     "open_issues": 0,
                     "owner": "DimStar77",
                     "repo": "openSUSE-helpers",
@@ -433,7 +433,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-02T11:52:41.776Z",
+    "last_updated": "2026-10-03T05:01:12.560Z",
     "original_repository_info": {
       "archived": false,
       "description": "How to become a packager",
