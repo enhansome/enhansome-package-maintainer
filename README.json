@@ -50,11 +50,11 @@
                 "id": 4542716,
                 "language": "Nix",
                 "license": "MIT",
-                "last_commit": "2026-10-03T04:49:29Z",
-                "open_issues": 21801,
+                "last_commit": "2026-10-03T11:01:33Z",
+                "open_issues": 21836,
                 "owner": "NixOS",
                 "repo": "nixpkgs",
-                "stars": 26325,
+                "stars": 26328,
                 "topics": [
                   "hacktoberfest",
                   "linux",
@@ -433,7 +433,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-03T05:01:12.560Z",
+    "last_updated": "2026-10-03T11:05:38.765Z",
     "original_repository_info": {
       "archived": false,
       "description": "How to become a packager",
