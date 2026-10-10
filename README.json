@@ -50,11 +50,11 @@
                 "id": 4542716,
                 "language": "Nix",
                 "license": "MIT",
-                "last_commit": "2026-10-09T12:33:05Z",
-                "open_issues": 21994,
+                "last_commit": "2026-10-10T11:42:54Z",
+                "open_issues": 21947,
                 "owner": "NixOS",
                 "repo": "nixpkgs",
-                "stars": 26404,
+                "stars": 26417,
                 "topics": [
                   "hacktoberfest",
                   "linux",
@@ -179,7 +179,7 @@
             "id": 436256358,
             "language": "Python",
             "license": "GPL-3.0",
-            "last_commit": "2026-10-05T15:13:52Z",
+            "last_commit": "2026-10-09T15:13:37Z",
             "open_issues": 3,
             "owner": "dcermak",
             "repo": "release-notes-scraper",
@@ -433,7 +433,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-09T12:33:59.399Z",
+    "last_updated": "2026-10-10T11:54:39.693Z",
     "original_repository_info": {
       "archived": false,
       "description": "How to become a packager",
