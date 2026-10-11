@@ -17,11 +17,11 @@
                 "id": 10294702,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-09-17T03:34:16Z",
+                "last_commit": "2026-10-11T10:11:00Z",
                 "open_issues": 14,
                 "owner": "lilydjwg",
                 "repo": "nvchecker",
-                "stars": 573,
+                "stars": 572,
                 "topics": [
                   "package-tracker",
                   "packaging",
@@ -50,11 +50,11 @@
                 "id": 4542716,
                 "language": "Nix",
                 "license": "MIT",
-                "last_commit": "2026-10-10T11:42:54Z",
-                "open_issues": 21947,
+                "last_commit": "2026-10-11T12:05:49Z",
+                "open_issues": 21914,
                 "owner": "NixOS",
                 "repo": "nixpkgs",
-                "stars": 26417,
+                "stars": 26426,
                 "topics": [
                   "hacktoberfest",
                   "linux",
@@ -433,7 +433,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-10T11:54:39.693Z",
+    "last_updated": "2026-10-11T12:06:10.959Z",
     "original_repository_info": {
       "archived": false,
       "description": "How to become a packager",
