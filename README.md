@@ -145,7 +145,7 @@ Launchpad is used by:
 
 [GitHub](https://github.com/) is used by:
 
-* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 26,456 | 🐛 21,943 | 🌐 Nix | 📅 2026-10-14
+* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 26,469 | 🐛 21,985 | 🌐 Nix | 📅 2026-10-15
 * [Homebrew](https://github.com/Homebrew)
 
 [GitLab](https://about.gitlab.com/) is used by:
@@ -507,7 +507,7 @@ These are tools to search in files. [grep](https://www.gnu.org/software/grep/) i
 Useful for developers and maintainers. It can also search only specific file types.
 For example `ack --cc close` searches all C files for the word `close`.
 [ag](https://geoff.greer.fm/ag/), also known as *The Silver Searcher*, is yet a little faster than ack and ignores files mentioned in `.gitignore`. Additionally it can search compressed files.
-[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 69,131 | 🐛 204 | 🌐 Rust | 📅 2026-08-04 is similar to ag but written in Rust.
+[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 69,114 | 🐛 207 | 🌐 Rust | 📅 2026-08-04 is similar to ag but written in Rust.
 
 See this excellent [comparison](https://beyondgrep.com/feature-comparison/) for more details.
 
@@ -519,7 +519,7 @@ perf is a tool that can be used to analyze performance and trace functions.
 
 ## magic-trace
 
-[magic-trace](https://github.com/janestreet/magic-trace) ⭐ 6,297 | 🐛 74 | 🌐 OCaml | 📅 2026-08-19 is similar to perf.
+[magic-trace](https://github.com/janestreet/magic-trace) ⭐ 6,298 | 🐛 74 | 🌐 OCaml | 📅 2026-08-19 is similar to perf.
 The key difference from perf is that instead of sampling call stacks throughout time, magic-trace uses Intel Processor Trace to snapshot a ring buffer of all control flow leading up to a chosen point in time. Then, you can explore an interactive timeline of what happened.
 
 ## More tools
@@ -539,7 +539,7 @@ The following tools will mostly be about debugging.
 ## gdb
 
 [gdb](https://www.gnu.org/software/gdb) is a debugger.
-[seer](https://github.com/epasveer/seer) ⭐ 3,450 | 🐛 37 | 🌐 C++ | 📅 2026-10-13 is a nice GUI frontend for gdb.
+[seer](https://github.com/epasveer/seer) ⭐ 3,452 | 🐛 37 | 🌐 C++ | 📅 2026-10-13 is a nice GUI frontend for gdb.
 
 * [How does gdb work?](https://jvns.ca/blog/2016/08/10/how-does-gdb-work/) by [jvns](https://github.com/jvns).
 
@@ -618,7 +618,7 @@ $ gdb
 
 You can use plugins, scripts and tools to optmize your gdb usage for certain tasks.
 
-One example is [gef](https://github.com/hugsy/gef) ⭐ 8,394 | 🐛 18 | 🌐 Python | 📅 2026-08-20. It assists exploit developers and reverse-engineers when using old school GDB. It provides additional features to GDB using the Python API to assist during the process of dynamic analysis and exploit development. Application developers will also benefit from it, as GEF lifts a great part of regular GDB obscurity, avoiding repeating traditional commands, or bringing out the relevant information from the debugging runtime.
+One example is [gef](https://github.com/hugsy/gef) ⭐ 8,398 | 🐛 18 | 🌐 Python | 📅 2026-08-20. It assists exploit developers and reverse-engineers when using old school GDB. It provides additional features to GDB using the Python API to assist during the process of dynamic analysis and exploit development. Application developers will also benefit from it, as GEF lifts a great part of regular GDB obscurity, avoiding repeating traditional commands, or bringing out the relevant information from the debugging runtime.
 
 ![alt text](https://github.com/jubalh/awesome-package-maintainer/blob/master/img/gef.png?raw=true)
 
@@ -874,7 +874,7 @@ This will See `man 5 portage` for more details.
 Useful tools:
 
 * [mgorny-dev-scripts](https://github.com/projg2/mgorny-dev-scripts) ⭐ 40 | 🐛 6 | 🌐 Shell | 📅 2026-09-12 - [mgornys](https://github.com/mgorny) ebuild development scripts
-* [iwdevtools](https://github.com/ionenwks/iwdevtools) ⭐ 24 | 🐛 6 | 🌐 Shell | 📅 2026-07-06 - tools to aid with Gentoo development, primarily intended for QA
+* [iwdevtools](https://github.com/ionenwks/iwdevtools) ⭐ 24 | 🐛 6 | 🌐 Shell | 📅 2026-10-15 - tools to aid with Gentoo development, primarily intended for QA
 * [sam-gentoo-scripts](https://github.com/thesamesam/sam-gentoo-scripts) ⭐ 24 | 🐛 1 | 🌐 Shell | 📅 2026-08-29 - [sams](https://github.com/thesamesam) Gentoo development scripts
 * [pkgdev](https://wiki.gentoo.org/wiki/Pkgdev)
 * [pkgcheck](https://wiki.gentoo.org/wiki/Pkgcheck)
@@ -978,8 +978,8 @@ openSUSE is currently in the process of switching to git instead of obs. See [th
 
 Install
 
-* [grc](https://github.com/garabik/grc) ⭐ 2,200 | 🐛 95 | 🌐 Python | 📅 2024-08-18 (`zypper in grc`) to have colorized and more readable output when building with `grc osc build`.
-* [spec-cleaner](https://github.com/rpm-software-management/spec-cleaner) ⭐ 33 | 🐛 0 | 🌐 Python | 📅 2026-10-13 (`zypper in spec-cleaner`) to clean the spec file according to the style guide.
+* [grc](https://github.com/garabik/grc) ⭐ 2,201 | 🐛 95 | 🌐 Python | 📅 2024-08-18 (`zypper in grc`) to have colorized and more readable output when building with `grc osc build`.
+* [spec-cleaner](https://github.com/rpm-software-management/spec-cleaner) ⭐ 33 | 🐛 0 | 🌐 Python | 📅 2026-10-15 (`zypper in spec-cleaner`) to clean the spec file according to the style guide.
 
 ### Configure osc
 
@@ -1256,7 +1256,7 @@ rpm -ql nudoku nudoku-debuginfo
 
 ### Useful scripts
 
-* [openSUSE-helpers](https://github.com/DimStar77/openSUSE-helpers) ⭐ 5 | 🐛 0 | 🌐 Python | 📅 2026-10-06 by [DimStar77](https://github.com/DimStar77).
+* [openSUSE-helpers](https://github.com/DimStar77/openSUSE-helpers) ⭐ 5 | 🐛 0 | 🌐 Python | 📅 2026-10-14 by [DimStar77](https://github.com/DimStar77).
 
 ### Blog(posts)
 
@@ -1428,4 +1428,4 @@ Special thanks and credit to the whole SUSE Pack team, and to:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-14._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-15._
