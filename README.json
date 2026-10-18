@@ -21,7 +21,7 @@
                 "open_issues": 14,
                 "owner": "lilydjwg",
                 "repo": "nvchecker",
-                "stars": 572,
+                "stars": 574,
                 "topics": [
                   "package-tracker",
                   "packaging",
@@ -50,11 +50,11 @@
                 "id": 4542716,
                 "language": "Nix",
                 "license": "MIT",
-                "last_commit": "2026-10-17T10:08:06Z",
-                "open_issues": 22060,
+                "last_commit": "2026-10-18T10:21:01Z",
+                "open_issues": 22105,
                 "owner": "NixOS",
                 "repo": "nixpkgs",
-                "stars": 26491,
+                "stars": 26515,
                 "topics": [
                   "hacktoberfest",
                   "linux",
@@ -119,10 +119,10 @@
                 "language": "OCaml",
                 "license": "MIT",
                 "last_commit": "2026-08-19T16:49:41Z",
-                "open_issues": 74,
+                "open_issues": 72,
                 "owner": "janestreet",
                 "repo": "magic-trace",
-                "stars": 6297,
+                "stars": 6299,
                 "topics": [
                   "intel",
                   "introspection",
@@ -347,11 +347,11 @@
                     "id": 13555281,
                     "language": "Python",
                     "license": "BSD-3-Clause",
-                    "last_commit": "2026-10-15T17:17:47Z",
+                    "last_commit": "2026-10-18T09:36:00Z",
                     "open_issues": 0,
                     "owner": "rpm-software-management",
                     "repo": "spec-cleaner",
-                    "stars": 33,
+                    "stars": 34,
                     "topics": [
                       "python",
                       "rpm",
@@ -433,7 +433,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-17T10:08:34.707Z",
+    "last_updated": "2026-10-18T10:23:27.777Z",
     "original_repository_info": {
       "archived": false,
       "description": "How to become a packager",
