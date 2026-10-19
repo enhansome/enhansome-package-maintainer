@@ -50,11 +50,11 @@
                 "id": 4542716,
                 "language": "Nix",
                 "license": "MIT",
-                "last_commit": "2026-10-18T10:21:01Z",
-                "open_issues": 22105,
+                "last_commit": "2026-10-19T12:04:05Z",
+                "open_issues": 22166,
                 "owner": "NixOS",
                 "repo": "nixpkgs",
-                "stars": 26515,
+                "stars": 26533,
                 "topics": [
                   "hacktoberfest",
                   "linux",
@@ -122,7 +122,7 @@
                 "open_issues": 72,
                 "owner": "janestreet",
                 "repo": "magic-trace",
-                "stars": 6299,
+                "stars": 6301,
                 "topics": [
                   "intel",
                   "introspection",
@@ -179,8 +179,8 @@
             "id": 436256358,
             "language": "Python",
             "license": "GPL-3.0",
-            "last_commit": "2026-10-13T17:19:43Z",
-            "open_issues": 3,
+            "last_commit": "2026-10-19T06:36:38Z",
+            "open_issues": 0,
             "owner": "dcermak",
             "repo": "release-notes-scraper",
             "stars": 7,
@@ -347,7 +347,7 @@
                     "id": 13555281,
                     "language": "Python",
                     "license": "BSD-3-Clause",
-                    "last_commit": "2026-10-18T09:36:00Z",
+                    "last_commit": "2026-10-19T08:58:51Z",
                     "open_issues": 0,
                     "owner": "rpm-software-management",
                     "repo": "spec-cleaner",
@@ -433,7 +433,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-18T10:23:27.777Z",
+    "last_updated": "2026-10-19T12:07:23.088Z",
     "original_repository_info": {
       "archived": false,
       "description": "How to become a packager",
