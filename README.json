@@ -21,7 +21,7 @@
                 "open_issues": 14,
                 "owner": "lilydjwg",
                 "repo": "nvchecker",
-                "stars": 574,
+                "stars": 575,
                 "topics": [
                   "package-tracker",
                   "packaging",
@@ -50,11 +50,11 @@
                 "id": 4542716,
                 "language": "Nix",
                 "license": "MIT",
-                "last_commit": "2026-10-20T10:54:48Z",
-                "open_issues": 22097,
+                "last_commit": "2026-10-21T11:03:51Z",
+                "open_issues": 22135,
                 "owner": "NixOS",
                 "repo": "nixpkgs",
-                "stars": 26545,
+                "stars": 26556,
                 "topics": [
                   "hacktoberfest",
                   "linux",
@@ -119,10 +119,10 @@
                 "language": "OCaml",
                 "license": "MIT",
                 "last_commit": "2026-10-19T21:34:43Z",
-                "open_issues": 72,
+                "open_issues": 71,
                 "owner": "janestreet",
                 "repo": "magic-trace",
-                "stars": 6302,
+                "stars": 6303,
                 "topics": [
                   "intel",
                   "introspection",
@@ -381,7 +381,7 @@
                     "id": 31610959,
                     "language": "Python",
                     "license": null,
-                    "last_commit": "2026-10-14T18:50:26Z",
+                    "last_commit": "2026-10-20T19:51:47Z",
                     "open_issues": 0,
                     "owner": "DimStar77",
                     "repo": "openSUSE-helpers",
@@ -433,7 +433,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-20T10:55:43.608Z",
+    "last_updated": "2026-10-21T11:09:29.235Z",
     "original_repository_info": {
       "archived": false,
       "description": "How to become a packager",
