@@ -21,7 +21,7 @@
                 "open_issues": 14,
                 "owner": "lilydjwg",
                 "repo": "nvchecker",
-                "stars": 575,
+                "stars": 576,
                 "topics": [
                   "package-tracker",
                   "packaging",
@@ -50,11 +50,11 @@
                 "id": 4542716,
                 "language": "Nix",
                 "license": "MIT",
-                "last_commit": "2026-10-21T11:03:51Z",
-                "open_issues": 22135,
+                "last_commit": "2026-10-22T11:06:21Z",
+                "open_issues": 22218,
                 "owner": "NixOS",
                 "repo": "nixpkgs",
-                "stars": 26556,
+                "stars": 26569,
                 "topics": [
                   "hacktoberfest",
                   "linux",
@@ -122,7 +122,7 @@
                 "open_issues": 71,
                 "owner": "janestreet",
                 "repo": "magic-trace",
-                "stars": 6303,
+                "stars": 6304,
                 "topics": [
                   "intel",
                   "introspection",
@@ -347,8 +347,8 @@
                     "id": 13555281,
                     "language": "Python",
                     "license": "BSD-3-Clause",
-                    "last_commit": "2026-10-20T07:38:04Z",
-                    "open_issues": 3,
+                    "last_commit": "2026-10-21T20:22:20Z",
+                    "open_issues": 2,
                     "owner": "rpm-software-management",
                     "repo": "spec-cleaner",
                     "stars": 34,
@@ -381,7 +381,7 @@
                     "id": 31610959,
                     "language": "Python",
                     "license": null,
-                    "last_commit": "2026-10-20T19:51:47Z",
+                    "last_commit": "2026-10-21T17:01:09Z",
                     "open_issues": 0,
                     "owner": "DimStar77",
                     "repo": "openSUSE-helpers",
@@ -433,7 +433,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-21T11:09:29.235Z",
+    "last_updated": "2026-10-22T11:09:13.442Z",
     "original_repository_info": {
       "archived": false,
       "description": "How to become a packager",
