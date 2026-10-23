@@ -21,7 +21,7 @@
                 "open_issues": 14,
                 "owner": "lilydjwg",
                 "repo": "nvchecker",
-                "stars": 576,
+                "stars": 577,
                 "topics": [
                   "package-tracker",
                   "packaging",
@@ -50,11 +50,11 @@
                 "id": 4542716,
                 "language": "Nix",
                 "license": "MIT",
-                "last_commit": "2026-10-22T11:06:21Z",
-                "open_issues": 22218,
+                "last_commit": "2026-10-23T10:34:15Z",
+                "open_issues": 22173,
                 "owner": "NixOS",
                 "repo": "nixpkgs",
-                "stars": 26569,
+                "stars": 26580,
                 "topics": [
                   "hacktoberfest",
                   "linux",
@@ -122,7 +122,7 @@
                 "open_issues": 71,
                 "owner": "janestreet",
                 "repo": "magic-trace",
-                "stars": 6304,
+                "stars": 6309,
                 "topics": [
                   "intel",
                   "introspection",
@@ -347,8 +347,8 @@
                     "id": 13555281,
                     "language": "Python",
                     "license": "BSD-3-Clause",
-                    "last_commit": "2026-10-21T20:22:20Z",
-                    "open_issues": 2,
+                    "last_commit": "2026-10-23T10:18:38Z",
+                    "open_issues": 5,
                     "owner": "rpm-software-management",
                     "repo": "spec-cleaner",
                     "stars": 34,
@@ -433,7 +433,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-22T11:09:13.442Z",
+    "last_updated": "2026-10-23T11:00:02.796Z",
     "original_repository_info": {
       "archived": false,
       "description": "How to become a packager",
