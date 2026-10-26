@@ -145,7 +145,7 @@ Launchpad is used by:
 
 [GitHub](https://github.com/) is used by:
 
-* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 26,607 | 🐛 22,274 | 🌐 Nix | 📅 2026-10-25
+* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 26,622 | 🐛 22,341 | 🌐 Nix | 📅 2026-10-26
 * [Homebrew](https://github.com/Homebrew)
 
 [GitLab](https://about.gitlab.com/) is used by:
@@ -507,7 +507,7 @@ These are tools to search in files. [grep](https://www.gnu.org/software/grep/) i
 Useful for developers and maintainers. It can also search only specific file types.
 For example `ack --cc close` searches all C files for the word `close`.
 [ag](https://geoff.greer.fm/ag/), also known as *The Silver Searcher*, is yet a little faster than ack and ignores files mentioned in `.gitignore`. Additionally it can search compressed files.
-[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 69,417 | 🐛 209 | 🌐 Rust | 📅 2026-10-23 is similar to ag but written in Rust.
+[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 69,458 | 🐛 211 | 🌐 Rust | 📅 2026-10-23 is similar to ag but written in Rust.
 
 See this excellent [comparison](https://beyondgrep.com/feature-comparison/) for more details.
 
@@ -519,7 +519,7 @@ perf is a tool that can be used to analyze performance and trace functions.
 
 ## magic-trace
 
-[magic-trace](https://github.com/janestreet/magic-trace) ⭐ 6,317 | 🐛 71 | 🌐 OCaml | 📅 2026-10-19 is similar to perf.
+[magic-trace](https://github.com/janestreet/magic-trace) ⭐ 6,319 | 🐛 71 | 🌐 OCaml | 📅 2026-10-19 is similar to perf.
 The key difference from perf is that instead of sampling call stacks throughout time, magic-trace uses Intel Processor Trace to snapshot a ring buffer of all control flow leading up to a chosen point in time. Then, you can explore an interactive timeline of what happened.
 
 ## More tools
@@ -539,7 +539,7 @@ The following tools will mostly be about debugging.
 ## gdb
 
 [gdb](https://www.gnu.org/software/gdb) is a debugger.
-[seer](https://github.com/epasveer/seer) ⭐ 3,455 | 🐛 39 | 🌐 C++ | 📅 2026-10-22 is a nice GUI frontend for gdb.
+[seer](https://github.com/epasveer/seer) ⭐ 3,455 | 🐛 39 | 🌐 C++ | 📅 2026-10-25 is a nice GUI frontend for gdb.
 
 * [How does gdb work?](https://jvns.ca/blog/2016/08/10/how-does-gdb-work/) by [jvns](https://github.com/jvns).
 
@@ -978,8 +978,8 @@ openSUSE is currently in the process of switching to git instead of obs. See [th
 
 Install
 
-* [grc](https://github.com/garabik/grc) ⭐ 2,203 | 🐛 95 | 🌐 Python | 📅 2024-08-18 (`zypper in grc`) to have colorized and more readable output when building with `grc osc build`.
-* [spec-cleaner](https://github.com/rpm-software-management/spec-cleaner) ⭐ 34 | 🐛 2 | 🌐 Python | 📅 2026-10-24 (`zypper in spec-cleaner`) to clean the spec file according to the style guide.
+* [grc](https://github.com/garabik/grc) ⭐ 2,204 | 🐛 95 | 🌐 Python | 📅 2024-08-18 (`zypper in grc`) to have colorized and more readable output when building with `grc osc build`.
+* [spec-cleaner](https://github.com/rpm-software-management/spec-cleaner) ⭐ 34 | 🐛 0 | 🌐 Python | 📅 2026-10-26 (`zypper in spec-cleaner`) to clean the spec file according to the style guide.
 
 ### Configure osc
 
@@ -1256,7 +1256,7 @@ rpm -ql nudoku nudoku-debuginfo
 
 ### Useful scripts
 
-* [openSUSE-helpers](https://github.com/DimStar77/openSUSE-helpers) ⭐ 5 | 🐛 0 | 🌐 Python | 📅 2026-10-24 by [DimStar77](https://github.com/DimStar77).
+* [openSUSE-helpers](https://github.com/DimStar77/openSUSE-helpers) ⭐ 5 | 🐛 0 | 🌐 Python | 📅 2026-10-26 by [DimStar77](https://github.com/DimStar77).
 
 ### Blog(posts)
 
@@ -1308,7 +1308,7 @@ There are some tools to verify that the package generated is correct
 and follows the distribution guidelines.
 
 * [lintian](https://wiki.debian.org/Lintian), for .deb packages
-* [rpmlint](https://github.com/rpm-software-management/rpmlint) ⭐ 165 | 🐛 108 | 🌐 Python | 📅 2026-10-23, for
+* [rpmlint](https://github.com/rpm-software-management/rpmlint) ⭐ 165 | 🐛 108 | 🌐 Python | 📅 2026-10-26, for
   .rpm packages.
 
 ## rpmlint
@@ -1408,7 +1408,7 @@ several choices to filter the warning or error from rpmlint output:
 * Use a rpmlintrc file, rpmlint will load any `*.rpmlintrc` or
   `*-rpmlintrc` located in the same folder as the checked package.
 
-You can find more details about how to configure in the [rpmlint doc](https://github.com/rpm-software-management/rpmlint?tab=readme-ov-file#configuration) ⭐ 165 | 🐛 108 | 🌐 Python | 📅 2026-10-23
+You can find more details about how to configure in the [rpmlint doc](https://github.com/rpm-software-management/rpmlint?tab=readme-ov-file#configuration) ⭐ 165 | 🐛 108 | 🌐 Python | 📅 2026-10-26
 
 # Post packaging
 
@@ -1428,4 +1428,4 @@ Special thanks and credit to the whole SUSE Pack team, and to:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-25._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-26._
