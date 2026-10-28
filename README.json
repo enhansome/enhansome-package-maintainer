@@ -50,11 +50,11 @@
                 "id": 4542716,
                 "language": "Nix",
                 "license": "MIT",
-                "last_commit": "2026-10-27T11:21:35Z",
-                "open_issues": 22328,
+                "last_commit": "2026-10-28T12:03:48Z",
+                "open_issues": 22372,
                 "owner": "NixOS",
                 "repo": "nixpkgs",
-                "stars": 26631,
+                "stars": 26644,
                 "topics": [
                   "hacktoberfest",
                   "linux",
@@ -122,7 +122,7 @@
                 "open_issues": 73,
                 "owner": "janestreet",
                 "repo": "magic-trace",
-                "stars": 6321,
+                "stars": 6324,
                 "topics": [
                   "intel",
                   "introspection",
@@ -330,7 +330,7 @@
                     "open_issues": 95,
                     "owner": "garabik",
                     "repo": "grc",
-                    "stars": 2204,
+                    "stars": 2205,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T18:11:35.484Z"
@@ -381,7 +381,7 @@
                     "id": 31610959,
                     "language": "Python",
                     "license": null,
-                    "last_commit": "2026-10-26T07:27:22Z",
+                    "last_commit": "2026-10-27T16:37:19Z",
                     "open_issues": 0,
                     "owner": "DimStar77",
                     "repo": "openSUSE-helpers",
@@ -433,7 +433,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-27T11:35:48.979Z",
+    "last_updated": "2026-10-28T12:06:56.334Z",
     "original_repository_info": {
       "archived": false,
       "description": "How to become a packager",
@@ -445,7 +445,7 @@
       "open_issues": 0,
       "owner": "jubalh",
       "repo": "awesome-package-maintainer",
-      "stars": 297,
+      "stars": 296,
       "topics": [
         "awesome-list",
         "how-to",
