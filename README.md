@@ -145,7 +145,7 @@ Launchpad is used by:
 
 [GitHub](https://github.com/) is used by:
 
-* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 26,726 | 🐛 22,578 | 🌐 Nix | 📅 2026-11-06
+* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 26,741 | 🐛 22,607 | 🌐 Nix | 📅 2026-11-07
 * [Homebrew](https://github.com/Homebrew)
 
 [GitLab](https://about.gitlab.com/) is used by:
@@ -507,7 +507,7 @@ These are tools to search in files. [grep](https://www.gnu.org/software/grep/) i
 Useful for developers and maintainers. It can also search only specific file types.
 For example `ack --cc close` searches all C files for the word `close`.
 [ag](https://geoff.greer.fm/ag/), also known as *The Silver Searcher*, is yet a little faster than ack and ignores files mentioned in `.gitignore`. Additionally it can search compressed files.
-[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 69,764 | 🐛 224 | 🌐 Rust | 📅 2026-10-27 is similar to ag but written in Rust.
+[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 69,856 | 🐛 224 | 🌐 Rust | 📅 2026-10-27 is similar to ag but written in Rust.
 
 See this excellent [comparison](https://beyondgrep.com/feature-comparison/) for more details.
 
@@ -618,7 +618,7 @@ $ gdb
 
 You can use plugins, scripts and tools to optmize your gdb usage for certain tasks.
 
-One example is [gef](https://github.com/hugsy/gef) ⭐ 8,423 | 🐛 18 | 🌐 Python | 📅 2026-08-20. It assists exploit developers and reverse-engineers when using old school GDB. It provides additional features to GDB using the Python API to assist during the process of dynamic analysis and exploit development. Application developers will also benefit from it, as GEF lifts a great part of regular GDB obscurity, avoiding repeating traditional commands, or bringing out the relevant information from the debugging runtime.
+One example is [gef](https://github.com/hugsy/gef) ⭐ 8,425 | 🐛 18 | 🌐 Python | 📅 2026-08-20. It assists exploit developers and reverse-engineers when using old school GDB. It provides additional features to GDB using the Python API to assist during the process of dynamic analysis and exploit development. Application developers will also benefit from it, as GEF lifts a great part of regular GDB obscurity, avoiding repeating traditional commands, or bringing out the relevant information from the debugging runtime.
 
 ![alt text](https://github.com/jubalh/awesome-package-maintainer/blob/master/img/gef.png?raw=true)
 
@@ -771,7 +771,7 @@ ldd ./src/myprog
 	libcurl.so.4 => /lib64/libcurl.so.4 (0x00007f36e4297000)
 ```
 
-There is also [libtree](https://github.com/haampie/libtree) ⭐ 2,777 | 🐛 12 | 🌐 C | 📅 2024-06-21 which is doing the same but displays it as a tree.
+There is also [libtree](https://github.com/haampie/libtree) ⭐ 2,776 | 🐛 12 | 🌐 C | 📅 2024-06-21 which is doing the same but displays it as a tree.
 
 ![Screenshot of libtree](https://github.com/haampie/libtree/blob/master/doc/screenshot.png?raw=true)
 
@@ -979,7 +979,7 @@ openSUSE is currently in the process of switching to git instead of obs. See [th
 Install
 
 * [grc](https://github.com/garabik/grc) ⭐ 2,204 | 🐛 95 | 🌐 Python | 📅 2024-08-18 (`zypper in grc`) to have colorized and more readable output when building with `grc osc build`.
-* [spec-cleaner](https://github.com/rpm-software-management/spec-cleaner) ⭐ 34 | 🐛 4 | 🌐 Python | 📅 2026-11-06 (`zypper in spec-cleaner`) to clean the spec file according to the style guide.
+* [spec-cleaner](https://github.com/rpm-software-management/spec-cleaner) ⭐ 34 | 🐛 0 | 🌐 Python | 📅 2026-11-07 (`zypper in spec-cleaner`) to clean the spec file according to the style guide.
 
 ### Configure osc
 
@@ -1428,4 +1428,4 @@ Special thanks and credit to the whole SUSE Pack team, and to:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-06._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-07._
