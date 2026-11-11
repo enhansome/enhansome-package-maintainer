@@ -17,11 +17,11 @@
                 "id": 10294702,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-11-09T15:51:21Z",
-                "open_issues": 18,
+                "last_commit": "2026-11-11T07:05:11Z",
+                "open_issues": 15,
                 "owner": "lilydjwg",
                 "repo": "nvchecker",
-                "stars": 581,
+                "stars": 582,
                 "topics": [
                   "package-tracker",
                   "packaging",
@@ -50,11 +50,11 @@
                 "id": 4542716,
                 "language": "Nix",
                 "license": "MIT",
-                "last_commit": "2026-11-10T14:19:40Z",
-                "open_issues": 22657,
+                "last_commit": "2026-11-11T13:30:34Z",
+                "open_issues": 22596,
                 "owner": "NixOS",
                 "repo": "nixpkgs",
-                "stars": 26777,
+                "stars": 26792,
                 "topics": [
                   "hacktoberfest",
                   "linux",
@@ -122,7 +122,7 @@
                 "open_issues": 73,
                 "owner": "janestreet",
                 "repo": "magic-trace",
-                "stars": 6359,
+                "stars": 6366,
                 "topics": [
                   "intel",
                   "introspection",
@@ -158,7 +158,7 @@
             "id": 175802149,
             "language": "Shell",
             "license": "GPL-2.0",
-            "last_commit": "2026-09-12T13:35:01Z",
+            "last_commit": "2026-11-11T11:38:49Z",
             "open_issues": 6,
             "owner": "gentoo",
             "repo": "mgorny-dev-scripts",
@@ -250,7 +250,7 @@
                 "id": 175802149,
                 "language": "Shell",
                 "license": "GPL-2.0",
-                "last_commit": "2026-09-12T13:35:01Z",
+                "last_commit": "2026-11-11T11:38:49Z",
                 "open_issues": 6,
                 "owner": "gentoo",
                 "repo": "mgorny-dev-scripts",
@@ -330,7 +330,7 @@
                     "open_issues": 95,
                     "owner": "garabik",
                     "repo": "grc",
-                    "stars": 2204,
+                    "stars": 2205,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T18:11:35.484Z"
@@ -347,7 +347,7 @@
                     "id": 13555281,
                     "language": "Python",
                     "license": "BSD-3-Clause",
-                    "last_commit": "2026-11-10T07:34:31Z",
+                    "last_commit": "2026-11-10T14:54:44Z",
                     "open_issues": 1,
                     "owner": "rpm-software-management",
                     "repo": "spec-cleaner",
@@ -433,7 +433,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-10T14:19:57.091Z",
+    "last_updated": "2026-11-11T13:32:59.914Z",
     "original_repository_info": {
       "archived": false,
       "description": "How to become a packager",
