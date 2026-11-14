@@ -50,11 +50,11 @@
                 "id": 4542716,
                 "language": "Nix",
                 "license": "MIT",
-                "last_commit": "2026-11-13T13:53:28Z",
-                "open_issues": 22589,
+                "last_commit": "2026-11-14T12:57:15Z",
+                "open_issues": 22516,
                 "owner": "NixOS",
                 "repo": "nixpkgs",
-                "stars": 26813,
+                "stars": 26823,
                 "topics": [
                   "hacktoberfest",
                   "linux",
@@ -122,7 +122,7 @@
                 "open_issues": 73,
                 "owner": "janestreet",
                 "repo": "magic-trace",
-                "stars": 6399,
+                "stars": 6401,
                 "topics": [
                   "intel",
                   "introspection",
@@ -348,7 +348,7 @@
                     "language": "Python",
                     "license": "BSD-3-Clause",
                     "last_commit": "2026-11-11T14:22:32Z",
-                    "open_issues": 0,
+                    "open_issues": 1,
                     "owner": "rpm-software-management",
                     "repo": "spec-cleaner",
                     "stars": 34,
@@ -433,7 +433,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-13T13:55:08.718Z",
+    "last_updated": "2026-11-14T12:57:33.219Z",
     "original_repository_info": {
       "archived": false,
       "description": "How to become a packager",
