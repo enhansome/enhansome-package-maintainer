@@ -21,7 +21,7 @@
                 "open_issues": 16,
                 "owner": "lilydjwg",
                 "repo": "nvchecker",
-                "stars": 583,
+                "stars": 582,
                 "topics": [
                   "package-tracker",
                   "packaging",
@@ -50,11 +50,11 @@
                 "id": 4542716,
                 "language": "Nix",
                 "license": "MIT",
-                "last_commit": "2026-11-17T15:27:22Z",
-                "open_issues": 22587,
+                "last_commit": "2026-11-18T15:05:29Z",
+                "open_issues": 22556,
                 "owner": "NixOS",
                 "repo": "nixpkgs",
-                "stars": 26867,
+                "stars": 26882,
                 "topics": [
                   "hacktoberfest",
                   "linux",
@@ -122,7 +122,7 @@
                 "open_issues": 74,
                 "owner": "janestreet",
                 "repo": "magic-trace",
-                "stars": 6416,
+                "stars": 6424,
                 "topics": [
                   "intel",
                   "introspection",
@@ -330,7 +330,7 @@
                     "open_issues": 95,
                     "owner": "garabik",
                     "repo": "grc",
-                    "stars": 2206,
+                    "stars": 2207,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T18:11:35.484Z"
@@ -347,8 +347,8 @@
                     "id": 13555281,
                     "language": "Python",
                     "license": "BSD-3-Clause",
-                    "last_commit": "2026-11-17T14:12:59Z",
-                    "open_issues": 6,
+                    "last_commit": "2026-11-18T10:22:07Z",
+                    "open_issues": 2,
                     "owner": "rpm-software-management",
                     "repo": "spec-cleaner",
                     "stars": 34,
@@ -433,7 +433,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-17T15:29:13.925Z",
+    "last_updated": "2026-11-18T15:05:54.806Z",
     "original_repository_info": {
       "archived": false,
       "description": "How to become a packager",
