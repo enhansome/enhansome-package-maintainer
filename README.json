@@ -50,11 +50,11 @@
                 "id": 4542716,
                 "language": "Nix",
                 "license": "MIT",
-                "last_commit": "2026-11-18T15:05:29Z",
-                "open_issues": 22556,
+                "last_commit": "2026-11-19T15:14:15Z",
+                "open_issues": 22744,
                 "owner": "NixOS",
                 "repo": "nixpkgs",
-                "stars": 26882,
+                "stars": 26896,
                 "topics": [
                   "hacktoberfest",
                   "linux",
@@ -119,10 +119,10 @@
                 "language": "OCaml",
                 "license": "MIT",
                 "last_commit": "2026-10-19T21:34:43Z",
-                "open_issues": 74,
+                "open_issues": 76,
                 "owner": "janestreet",
                 "repo": "magic-trace",
-                "stars": 6424,
+                "stars": 6425,
                 "topics": [
                   "intel",
                   "introspection",
@@ -158,7 +158,7 @@
             "id": 175802149,
             "language": "Shell",
             "license": "GPL-2.0",
-            "last_commit": "2026-11-16T17:51:36Z",
+            "last_commit": "2026-11-18T20:11:50Z",
             "open_issues": 6,
             "owner": "gentoo",
             "repo": "mgorny-dev-scripts",
@@ -250,7 +250,7 @@
                 "id": 175802149,
                 "language": "Shell",
                 "license": "GPL-2.0",
-                "last_commit": "2026-11-16T17:51:36Z",
+                "last_commit": "2026-11-18T20:11:50Z",
                 "open_issues": 6,
                 "owner": "gentoo",
                 "repo": "mgorny-dev-scripts",
@@ -433,7 +433,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-18T15:05:54.806Z",
+    "last_updated": "2026-11-19T15:14:27.596Z",
     "original_repository_info": {
       "archived": false,
       "description": "How to become a packager",
@@ -445,7 +445,7 @@
       "open_issues": 0,
       "owner": "jubalh",
       "repo": "awesome-package-maintainer",
-      "stars": 296,
+      "stars": 297,
       "topics": [
         "awesome-list",
         "how-to",
