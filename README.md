@@ -145,7 +145,7 @@ Launchpad is used by:
 
 [GitHub](https://github.com/) is used by:
 
-* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 26,910 | 🐛 22,786 | 🌐 Nix | 📅 2026-11-21
+* [NixOS](https://github.com/NixOS/nixpkgs/issues) ⭐ 26,922 | 🐛 22,810 | 🌐 Nix | 📅 2026-11-22
 * [Homebrew](https://github.com/Homebrew)
 
 [GitLab](https://about.gitlab.com/) is used by:
@@ -507,7 +507,7 @@ These are tools to search in files. [grep](https://www.gnu.org/software/grep/) i
 Useful for developers and maintainers. It can also search only specific file types.
 For example `ack --cc close` searches all C files for the word `close`.
 [ag](https://geoff.greer.fm/ag/), also known as *The Silver Searcher*, is yet a little faster than ack and ignores files mentioned in `.gitignore`. Additionally it can search compressed files.
-[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 70,118 | 🐛 182 | 🌐 Rust | 📅 2026-11-21 is similar to ag but written in Rust.
+[ripgrep](https://github.com/BurntSushi/ripgrep) ⭐ 70,138 | 🐛 95 | 🌐 Rust | 📅 2026-11-22 is similar to ag but written in Rust.
 
 See this excellent [comparison](https://beyondgrep.com/feature-comparison/) for more details.
 
@@ -771,7 +771,7 @@ ldd ./src/myprog
 	libcurl.so.4 => /lib64/libcurl.so.4 (0x00007f36e4297000)
 ```
 
-There is also [libtree](https://github.com/haampie/libtree) ⭐ 2,778 | 🐛 12 | 🌐 C | 📅 2024-06-21 which is doing the same but displays it as a tree.
+There is also [libtree](https://github.com/haampie/libtree) ⭐ 2,777 | 🐛 12 | 🌐 C | 📅 2024-06-21 which is doing the same but displays it as a tree.
 
 ![Screenshot of libtree](https://github.com/haampie/libtree/blob/master/doc/screenshot.png?raw=true)
 
@@ -791,7 +791,7 @@ They display information about object files and can be used to view an executabl
 
 # Scripts and helpers
 
-* [mgornys Gentoo dev scripts](https://github.com/projg2/mgorny-dev-scripts) ⭐ 40 | 🐛 6 | 🌐 Shell | 📅 2026-11-18
+* [mgornys Gentoo dev scripts](https://github.com/projg2/mgorny-dev-scripts) ⭐ 40 | 🐛 6 | 🌐 Shell | 📅 2026-11-21
 * [release-notes-scraper](https://github.com/dcermak/release-notes-scraper) ⭐ 7 | 🐛 0 | 🌐 Python | 📅 2026-11-12 - grab the release notes for projects from GitHub that do not keep a CHANGELOG, but publish their release notes via the releases page.
 * [changesgen](https://github.com/dirkmueller/changesgen/blob/main/changesgen.py) ⭐ 3 | 🐛 0 | 🌐 Python | 📅 2026-04-12 automates writing a (openSUSE) changes file.
 * [autoup](https://github.com/dirkmueller/changesgen/blob/main/autoup.py) ⭐ 3 | 🐛 0 | 🌐 Python | 📅 2026-04-12 searches on repology and tests whether updating to those would work in OBS
@@ -873,7 +873,7 @@ This will See `man 5 portage` for more details.
 
 Useful tools:
 
-* [mgorny-dev-scripts](https://github.com/projg2/mgorny-dev-scripts) ⭐ 40 | 🐛 6 | 🌐 Shell | 📅 2026-11-18 - [mgornys](https://github.com/mgorny) ebuild development scripts
+* [mgorny-dev-scripts](https://github.com/projg2/mgorny-dev-scripts) ⭐ 40 | 🐛 6 | 🌐 Shell | 📅 2026-11-21 - [mgornys](https://github.com/mgorny) ebuild development scripts
 * [iwdevtools](https://github.com/ionenwks/iwdevtools) ⭐ 26 | 🐛 6 | 🌐 Shell | 📅 2026-10-15 - tools to aid with Gentoo development, primarily intended for QA
 * [sam-gentoo-scripts](https://github.com/thesamesam/sam-gentoo-scripts) ⭐ 24 | 🐛 1 | 🌐 Shell | 📅 2026-08-29 - [sams](https://github.com/thesamesam) Gentoo development scripts
 * [pkgdev](https://wiki.gentoo.org/wiki/Pkgdev)
@@ -1428,4 +1428,4 @@ Special thanks and credit to the whole SUSE Pack team, and to:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-21._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-22._

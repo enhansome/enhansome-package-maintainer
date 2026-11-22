@@ -50,11 +50,11 @@
                 "id": 4542716,
                 "language": "Nix",
                 "license": "MIT",
-                "last_commit": "2026-11-21T14:11:27Z",
-                "open_issues": 22786,
+                "last_commit": "2026-11-22T14:00:38Z",
+                "open_issues": 22810,
                 "owner": "NixOS",
                 "repo": "nixpkgs",
-                "stars": 26910,
+                "stars": 26922,
                 "topics": [
                   "hacktoberfest",
                   "linux",
@@ -158,7 +158,7 @@
             "id": 175802149,
             "language": "Shell",
             "license": "GPL-2.0",
-            "last_commit": "2026-11-18T20:11:50Z",
+            "last_commit": "2026-11-21T18:02:48Z",
             "open_issues": 6,
             "owner": "gentoo",
             "repo": "mgorny-dev-scripts",
@@ -250,7 +250,7 @@
                 "id": 175802149,
                 "language": "Shell",
                 "license": "GPL-2.0",
-                "last_commit": "2026-11-18T20:11:50Z",
+                "last_commit": "2026-11-21T18:02:48Z",
                 "open_issues": 6,
                 "owner": "gentoo",
                 "repo": "mgorny-dev-scripts",
@@ -433,7 +433,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-21T14:11:43.049Z",
+    "last_updated": "2026-11-22T14:01:38.415Z",
     "original_repository_info": {
       "archived": false,
       "description": "How to become a packager",
@@ -445,7 +445,7 @@
       "open_issues": 0,
       "owner": "jubalh",
       "repo": "awesome-package-maintainer",
-      "stars": 297,
+      "stars": 298,
       "topics": [
         "awesome-list",
         "how-to",
